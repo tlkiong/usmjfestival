@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+	<head>
+		<title>Committee 2014 - 2014 USM Japan Festival - Haru</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/committee2014.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+		<style>
+			body {
+				background-image: url("assets/mainbackground.jpg");
+				background-size: cover;
+				background-attachment: fixed;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="jfmainpage.html"><img src="assets/japanaa.png" alt="USM Japan Festival 2014 logo" id="HaruLogo"></a></li>
+					<!-- logo, when clicked, back to the main page, with prom.video-->
+					<li><a href="jfabout.html" id="Navigate">ABOUT</a></li>
+					<li><a href="jfschedule.html" id="Navigate">SCHEDULE</a></li>
+					<li><a href="jfvenue.html" id="Navigate">VENUE</a></li>
+					<li><a href="jfsponsors.html" id="Navigate">SPONSORS</a></li>
+					<li><a class="current" href="#">COMMITTEE 2014</a></li>
+					<li><a href="jfcontactus.html" id="Navigate">CONTACT US</a></li>
+				</ul>
+			</nav>
+			<h1 id="title">COMMITTEE 2014</h1>
+		</header>
+		
+		<section>
+			<div id="committee2014">
+				<div id="PD"><img src="jfcommitteepic/MainCommittee/Tan%20Lee%20Kiong%20(PD).jpg" alt="PROJECT DIRECTOR: TAN LEE KIONG" width="100" height="100"><br>Project Director<br>TAN LEE KIONG</div>
+				
+				<!-- branches from pd to VPDs, Secretary and Treasurer -->
+				<div id="VerticalLine" class="v1"></div>
+				<div id="VerticalLine" class="v2"></div>
+				<div id="HorizontalLine" class="hl1"></div>
+				<div id="HorizontalLine" class="hl2"></div>
+				<div id="HorizontalLine" class="hl3"></div>
+				<div id="HorizontalLine" class="hl4"></div>
+				<div id="HorizontalLine" class="hl5"></div>
+				<div id="HorizontalLine" class="hl6"></div>
+				<div id="VPDpublic"><img src="jfcommitteepic/MainCommittee/Tan%20Yi%20Hui%20Carolyn%20(VPD).jpg" alt="VPD PUBLIC: TAN YI HUI" width="100" height="100"><br>VPD Public<br>TAN YI HUI</div>
+				<div id="VPDexhibition"><img src="jfcommitteepic/MainCommittee/Koo%20Wai%20Heng%20(VPD).jpg" alt="VPD EXHIBITION: KOO WAI HENG" width="100" height="100"><br>VPD Exhibition<br>KOO WAI HENG</div>
+				<div id="VPDevent"><img src="jfcommitteepic/MainCommittee/Lim%20Jia%20En%20(VPD).jpg" alt="VPD EVENT: LIM JIA EN" width="100" height="100"><br>VPD Event<br>LIM JIA EN</div>
+				<div id="others3"><img src="jfcommitteepic/MainCommittee/Winson%20Chu%20Wen%20Sen%20(Secretary).jpg" alt="SECRETARY: WINSON CHU WEN SEN" width="100" height="100"><br>Secretary<br>WINSON CHU<br>WEN SEN</div>
+				<div id="others"><img src="jfcommitteepic/MainCommittee/Tay%20Hui%20Yee%20(Secretary).jpg" alt="SECRETARY: TAY HUI YEE" width="100" height="100"><br>Secretary<br>TAY HUI YEE</div>
+
+				<!-- branches from Secretary and asst Secretary -->
+					<div id="VerticalLine" class="v3"></div>
+					<div id="HorizontalLine" class="hl7"></div>
+					<div id="HorizontalLine" class="hl8"></div>
+					<div id="others2"><img src="jfcommitteepic/MainCommittee/Teoh%20Hui%20Ghee%20(Asst%20Secretary).jpg" alt="ASSISTANT: TEOH HUI GHEE" width="100" height="100"><br>Assistant<br>TEOH HUI GHEE</div>
+					<div id="others2"><img src="jfcommitteepic/MainCommittee/Ding%20Kar%20Leong%20(Asst%20Secretary).jpg" alt="ASSISTANT: DING KAR LEONG" width="100" height="100"><br>Assistant<br>DING KAR LEONG</div>
+				<div id="others"><img src="jfcommitteepic/MainCommittee/Lee%20Mei%20Hui%20(treasurer).jpg" alt="TREASURER: LEE MEI HUI" width="100" height="100"><br>Treasurer<br>LEE MEI HUI</div>
+
+				<img onclick="Main1()" id="arrow1" class="arrows" src="assets/blueArrow.png">
+				<img onclick="Main2()" id="arrow2" class="arrows" src="assets/greenArrow.png">
+				<img onclick="Main3()" id="arrow3" class="arrows" src="assets/greenArrow.png">
+				<img onclick="Main4()" id="arrow4" class="arrows" src="assets/greenArrow.png">
+
+
+				<script>
+
+				function Main1() {
+				    document.getElementById('PD_line').style.display = "block";
+				    document.getElementById('arrowdown1').style.display = "inline";
+
+				    document.getElementById('arrow1').style.display = "none";
+				    document.getElementById('arrow2').style.display = "inline";
+				    document.getElementById('arrow3').style.display = "inline";
+				    document.getElementById('arrow4').style.display = "inline";
+				   
+				    document.getElementById('departmentA1').style.display = "block";				   
+				    document.getElementById('departmentA2').style.display = "block";				   
+				    document.getElementById('departmentA3').style.display = "block";
+					document.getElementById('departmentB1').style.display = "none";
+					document.getElementById('departmentB2').style.display = "none";
+					document.getElementById('departmentB3').style.display = "none";
+				    document.getElementById('departmentC1').style.display = "none";
+				    document.getElementById('departmentC2').style.display = "none";
+				    document.getElementById('departmentC3').style.display = "none";
+				    document.getElementById('departmentC4').style.display = "none";
+				    document.getElementById('departmentD1').style.display = "none";
+				    document.getElementById('departmentD2').style.display = "none";
+				    document.getElementById('departmentD3').style.display = "none";
+				    document.getElementById('departmentD4').style.display = "none";
+
+				    document.getElementById('arrowdown2').style.display = "none";
+				    document.getElementById('VPDpublic_line_expand').style.display = "none";
+				    document.getElementById('VPDpublic_sponsorship').style.display = "none";
+				    document.getElementById('VPDpublic_publicRelation').style.display = "none";
+				    document.getElementById('VPDpublic_publicity').style.display = "none";
+				    document.getElementById('VPDpublic_line').style.display = "none";
+
+				    document.getElementById('arrowdown3').style.display = "none";
+				    document.getElementById('VPDexhibition_line_expand').style.display = "none";
+				    document.getElementById('VPDexhibition_dnd').style.display = "none";
+				    document.getElementById('VPDexhibition_games').style.display = "none";
+				    document.getElementById('VPDexhibition_carnival').style.display = "none";
+				    document.getElementById('VPDexhibition_ticket').style.display = "none";
+				    document.getElementById('VPDexhibition_line').style.display = "none";
+
+				    document.getElementById('arrowdown4').style.display = "none";
+				    document.getElementById('VPDevent_line_expand').style.display = "none";
+				    document.getElementById('VPDevent_event').style.display = "none";
+				    document.getElementById('VPDevent_pns').style.display = "none";
+				    document.getElementById('VPDevent_hall').style.display = "none";
+				    document.getElementById('VPDevent_logistic').style.display = "none";
+				    document.getElementById('VPDevent_line').style.display = "none";
+					return false;		
+				}
+
+				function Main2() {
+				    document.getElementById('VPDpublic_line').style.display = "block";
+				    document.getElementById('arrowdown2').style.display = "inline";
+
+				    document.getElementById('arrow1').style.display = "inline";
+				    document.getElementById('arrow2').style.display = "none";
+				    document.getElementById('arrow3').style.display = "inline";
+				    document.getElementById('arrow4').style.display = "inline";
+
+				    document.getElementById('departmentA1').style.display = "none";
+				    document.getElementById('departmentA2').style.display = "none";
+				    document.getElementById('departmentA3').style.display = "none";
+					document.getElementById('departmentB1').style.display = "block";
+					document.getElementById('departmentB2').style.display = "block";
+					document.getElementById('departmentB3').style.display = "block";
+				    document.getElementById('departmentC1').style.display = "none";
+				    document.getElementById('departmentC2').style.display = "none";
+				    document.getElementById('departmentC3').style.display = "none";
+				    document.getElementById('departmentC4').style.display = "none";
+				    document.getElementById('departmentD1').style.display = "none";
+				    document.getElementById('departmentD2').style.display = "none";
+				    document.getElementById('departmentD3').style.display = "none";
+				    document.getElementById('departmentD4').style.display = "none";
+
+				    document.getElementById('arrowdown1').style.display = "none";
+				    document.getElementById('PD_line_expand').style.display = "none";
+				    document.getElementById('PDwebAdmin').style.display = "none";
+				    document.getElementById('PDemcee').style.display = "none";
+				    document.getElementById('PDmultimedia').style.display = "none";
+				    document.getElementById('PD_line').style.display = "none";
+
+				    document.getElementById('arrowdown3').style.display = "none";
+				    document.getElementById('VPDexhibition_line_expand').style.display = "none";
+				    document.getElementById('VPDexhibition_dnd').style.display = "none";
+				    document.getElementById('VPDexhibition_games').style.display = "none";
+				    document.getElementById('VPDexhibition_carnival').style.display = "none";
+				    document.getElementById('VPDexhibition_ticket').style.display = "none";
+				    document.getElementById('VPDexhibition_line').style.display = "none";
+
+				    document.getElementById('arrowdown4').style.display = "none";
+				    document.getElementById('VPDevent_line_expand').style.display = "none";
+				    document.getElementById('VPDevent_event').style.display = "none";
+				    document.getElementById('VPDevent_pns').style.display = "none";
+				    document.getElementById('VPDevent_hall').style.display = "none";
+				    document.getElementById('VPDevent_logistic').style.display = "none";
+				    document.getElementById('VPDevent_line').style.display = "none";
+					return false;
+				}
+
+				function Main3() { 
+				    document.getElementById('VPDexhibition_line').style.display = "block";
+				    document.getElementById('arrowdown3').style.display = "inline";
+
+				    document.getElementById('arrow1').style.display = "inline";
+				    document.getElementById('arrow2').style.display = "inline";
+				    document.getElementById('arrow3').style.display = "none";
+				    document.getElementById('arrow4').style.display = "inline";
+
+				    document.getElementById('departmentA1').style.display = "none";
+				    document.getElementById('departmentA2').style.display = "none";
+				    document.getElementById('departmentA3').style.display = "none";
+					document.getElementById('departmentB1').style.display = "none";
+					document.getElementById('departmentB2').style.display = "none";
+					document.getElementById('departmentB3').style.display = "none";
+				    document.getElementById('departmentC1').style.display = "block";
+				    document.getElementById('departmentC2').style.display = "block";
+				    document.getElementById('departmentC3').style.display = "block";
+				    document.getElementById('departmentC4').style.display = "block";
+				    document.getElementById('departmentD1').style.display = "none";
+				    document.getElementById('departmentD2').style.display = "none";
+				    document.getElementById('departmentD3').style.display = "none";
+				    document.getElementById('departmentD4').style.display = "none";
+
+				    document.getElementById('arrowdown1').style.display = "none";
+				    document.getElementById('PD_line_expand').style.display = "none";
+				    document.getElementById('PDwebAdmin').style.display = "none";
+				    document.getElementById('PDemcee').style.display = "none";
+				    document.getElementById('PDmultimedia').style.display = "none";
+				    document.getElementById('PD_line').style.display = "none";
+
+				    document.getElementById('arrowdown2').style.display = "none";
+				    document.getElementById('VPDpublic_line_expand').style.display = "none";
+				    document.getElementById('VPDpublic_sponsorship').style.display = "none";
+				    document.getElementById('VPDpublic_publicRelation').style.display = "none";
+				    document.getElementById('VPDpublic_publicity').style.display = "none";
+				    document.getElementById('VPDpublic_line').style.display = "none";
+
+				    document.getElementById('arrowdown4').style.display = "none";
+				    document.getElementById('VPDevent_line_expand').style.display = "none";
+				    document.getElementById('VPDevent_event').style.display = "none";
+				    document.getElementById('VPDevent_pns').style.display = "none";
+				    document.getElementById('VPDevent_hall').style.display = "none";
+				    document.getElementById('VPDevent_logistic').style.display = "none";
+				    document.getElementById('VPDevent_line').style.display = "none";
+					return false;				
+				}
+
+				function Main4() { 
+				    document.getElementById('VPDevent_line').style.display = "block";
+				    document.getElementById('arrowdown4').style.display = "inline";
+
+				    document.getElementById('arrow1').style.display = "inline";
+				    document.getElementById('arrow2').style.display = "inline";
+				    document.getElementById('arrow3').style.display = "inline";
+				    document.getElementById('arrow4').style.display = "none";
+
+				    document.getElementById('departmentA1').style.display = "none";
+				    document.getElementById('departmentA2').style.display = "none";
+				    document.getElementById('departmentA3').style.display = "none";
+					document.getElementById('departmentB1').style.display = "none";
+					document.getElementById('departmentB2').style.display = "none";
+					document.getElementById('departmentB3').style.display = "none";
+				    document.getElementById('departmentC1').style.display = "none";
+				    document.getElementById('departmentC2').style.display = "none";
+				    document.getElementById('departmentC3').style.display = "none";
+				    document.getElementById('departmentC4').style.display = "none";
+				    document.getElementById('departmentD1').style.display = "block";
+				    document.getElementById('departmentD2').style.display = "block";
+				    document.getElementById('departmentD3').style.display = "block";
+				    document.getElementById('departmentD4').style.display = "block";
+
+				    document.getElementById('arrowdown1').style.display = "none";
+				    document.getElementById('PD_line_expand').style.display = "none";
+				    document.getElementById('PDwebAdmin').style.display = "none";
+				    document.getElementById('PDemcee').style.display = "none";
+				    document.getElementById('PDmultimedia').style.display = "none";
+				    document.getElementById('PD_line').style.display = "none";
+
+				    document.getElementById('arrowdown2').style.display = "none";
+				    document.getElementById('VPDpublic_line_expand').style.display = "none";
+				    document.getElementById('VPDpublic_sponsorship').style.display = "none";
+				    document.getElementById('VPDpublic_publicRelation').style.display = "none";
+				    document.getElementById('VPDpublic_publicity').style.display = "none";
+				    document.getElementById('VPDpublic_line').style.display = "none";
+
+				    document.getElementById('arrowdown3').style.display = "none";
+				    document.getElementById('VPDexhibition_line_expand').style.display = "none";
+				    document.getElementById('VPDexhibition_dnd').style.display = "none";
+				    document.getElementById('VPDexhibition_games').style.display = "none";
+				    document.getElementById('VPDexhibition_carnival').style.display = "none";
+				    document.getElementById('VPDexhibition_ticket').style.display = "none";
+				    document.getElementById('VPDexhibition_line').style.display = "none";
+					return false;				
+				}
+
+
+				function Departments1() {
+				    document.getElementById('PD_line_expand').style.display = "block";
+				    document.getElementById('PDwebAdmin').style.display = "block";
+				    document.getElementById('PDemcee').style.display = "block";
+				    document.getElementById('PDmultimedia').style.display = "block";
+				    document.getElementById('PD_line').style.display = "none";
+				    document.getElementById('arrowdown1').style.display = "none";
+					return false;				
+				}
+
+
+				function Departments2() {
+				    document.getElementById('VPDpublic_line_expand').style.display = "block";
+				    document.getElementById('VPDpublic_sponsorship').style.display = "block";
+				    document.getElementById('VPDpublic_publicRelation').style.display = "block";
+				    document.getElementById('VPDpublic_publicity').style.display = "block";
+				    document.getElementById('VPDpublic_line').style.display = "none";
+				    document.getElementById('arrowdown2').style.display = "none";
+					return false;				
+				}
+
+
+				function Departments3() {
+				    document.getElementById('VPDexhibition_line_expand').style.display = "block";
+				    document.getElementById('VPDexhibition_dnd').style.display = "block";
+				    document.getElementById('VPDexhibition_games').style.display = "block";
+				    document.getElementById('VPDexhibition_carnival').style.display = "block";
+				    document.getElementById('VPDexhibition_ticket').style.display = "block";
+				    document.getElementById('VPDexhibition_line').style.display = "none";
+				    document.getElementById('arrowdown3').style.display = "none";
+					return false;				
+				}
+
+
+				function Departments4() {
+				    document.getElementById('VPDevent_line_expand').style.display = "block";
+				    document.getElementById('VPDevent_event').style.display = "block";
+				    document.getElementById('VPDevent_pns').style.display = "block";
+				    document.getElementById('VPDevent_hall').style.display = "block";
+				    document.getElementById('VPDevent_logistic').style.display = "block";
+				    document.getElementById('VPDevent_line').style.display = "none";
+				    document.getElementById('arrowdown4').style.display = "none";
+					return false;				
+				}
+
+
+				
+				</script>
+					
+					<!--lines lines lines-->
+					<div id="PD_line"> <!-- branches from pd to each department -->
+						<div id="HorizontalLine" class="hPD1"></div>
+						<div id="VerticalLine" class="vPD1"></div>
+						<div id="HorizontalLine" class="hPD2"></div>
+						<div id="HorizontalLine" class="hPD3"></div>
+						<div id="HorizontalLine" class="hPD4"></div>
+					</div>
+					<div id="VPDpublic_line"> <!-- branches from vpda (vpd public) to each department -->
+						<div id="HorizontalLine" class="hVPDpublic1"></div>
+						<div id="VerticalLine" class="vVPDpublic1"></div>
+						<div id="HorizontalLine" class="hVPDpublic2"></div>
+						<div id="HorizontalLine" class="hVPDpublic3"></div>
+						<div id="HorizontalLine" class="hVPDpublic4"></div>
+					</div>
+					<div id="VPDexhibition_line">  <!-- branches from vpdb (vpd exhibition) to each department -->
+						<div id="HorizontalLine" class="hVPDexhibition1"></div>
+						<div id="VerticalLine" class="vVPDexhibition1"></div>
+						<div id="HorizontalLine" class="hVPDexhibition2"></div>
+						<div id="HorizontalLine" class="hVPDexhibition3"></div>
+						<div id="HorizontalLine" class="hVPDexhibition4"></div>
+						<div id="HorizontalLine" class="hVPDexhibition5"></div>
+					</div>
+					<div id="VPDevent_line">  <!-- branches from vpdc (vpd event) to each department -->
+						<div id="HorizontalLine" class="hVPDevent1"></div>
+						<div id="VerticalLine" class="vVPDevent1"></div>
+						<div id="HorizontalLine" class="hVPDevent2"></div>
+						<div id="HorizontalLine" class="hVPDevent3"></div>
+						<div id="HorizontalLine" class="hVPDevent4"></div>
+						<div id="HorizontalLine" class="hVPDevent5"></div>
+					</div>
+
+
+					<!--lines lines lines after expand-->
+					<div id="PD_line_expand"> <!-- branches from pd to each department -->
+						<div id="HorizontalLine" class="hPD1e"></div>
+						<div id="VerticalLine" class="vPD1e"></div>
+						<div id="HorizontalLine" class="hPD2e"></div>
+						<div id="HorizontalLine" class="hPD3e"></div>
+						<div id="HorizontalLine" class="hPD4e"></div>
+					</div>
+					<div id="VPDpublic_line_expand"> <!-- branches from vpda (vpd public) to each department -->
+						<div id="HorizontalLine" class="hVPDpublic1e"></div>
+						<div id="VerticalLine" class="vVPDpublic1e"></div>
+						<div id="HorizontalLine" class="hVPDpublic2e"></div>
+						<div id="HorizontalLine" class="hVPDpublic3e"></div>
+						<div id="HorizontalLine" class="hVPDpublic4e"></div>
+					</div>
+					<div id="VPDexhibition_line_expand">  <!-- branches from vpdb (vpd exhibition) to each department -->
+						<div id="HorizontalLine" class="hVPDexhibition1e"></div>
+						<div id="VerticalLine" class="vVPDexhibition1e"></div>
+						<div id="HorizontalLine" class="hVPDexhibition2e"></div>
+						<div id="HorizontalLine" class="hVPDexhibition3e"></div>
+						<div id="HorizontalLine" class="hVPDexhibition4e"></div>
+						<div id="HorizontalLine" class="hVPDexhibition5e"></div>
+					</div>
+					<div id="VPDevent_line_expand">  <!-- branches from vpdc (vpd event) to each department -->
+						<div id="HorizontalLine" class="hVPDevent1e"></div>
+						<div id="VerticalLine" class="vVPDevent1e"></div>
+						<div id="HorizontalLine" class="hVPDevent2e"></div>
+						<div id="HorizontalLine" class="hVPDevent3e"></div>
+						<div id="HorizontalLine" class="hVPDevent4e"></div>
+						<div id="HorizontalLine" class="hVPDevent5e"></div>
+					</div>
+
+
+					<!-- DEPARTMENTS UNDER PD -->
+					<img onclick="Departments1()" id="arrowdown1" class="arrows" src="assets/greenArrowDown.png">
+
+					<div id="departmentA1" class="department">WEB ADMIN</div>
+					<div id="PDwebAdmin">
+						<img id="WEBADMIN" src="assets/department/WEBADMIN.png">
+						<div class="PDwebAdmin1"><div id="head"><img src="jfcommitteepic/WebAdmin/Yap%20Yi%20Sean%20(Head).jpg" alt="HEAD: YAP YI SEAN" width="100" height="100"><br>Head<br>YAP YI SEAN</div></div>
+						<div class="PDwebAdmin2"><div id="head"><img src="jfcommitteepic/WebAdmin/Ng%20Xiang%20Fen%20(Assistant).jpg" alt="ASSISTANT: NG XIANG FEN" width="100" height="100"><br>Assistant<br>NG XIANG FEN</div></div>
+						<div class="PDwebAdmin3"><div id="head"><img src="jfcommitteepic/WebAdmin/Lee%20Yong%20Meng%20(Assistant).jpg" alt="ASSISTANT: LEE YONG MENG" width="100" height="100"><br>Assistant<br>LEE YONG MENG</div></div>
+						<div class="PDwebAdmin4"><div id="memberPD"><img src="jfcommitteepic/WebAdmin/Chong%20Sze%20Ting.jpg" alt="MEMBER: CHONG SZE TING" width="100" height="100"><br>Member<br>CHONG SZE TING</div></div>
+						<div class="PDwebAdmin5"><div id="memberPD"><img src="jfcommitteepic/WebAdmin/Vanessa%20Chin.jpg" alt="MEMBER: VANESSA CHIN" width="100" height="100"><br>Member<br>VANESSA CHIN</div></div>
+					</div>
+					<div id="departmentA2" class="department">EMCEE</div>
+					<div id="PDemcee">
+						<img id="EMCEE" src="assets/department/EMCEE.png">
+						<div class="PDemcee1"><div id="head"><img src="assets/black.png" alt="HEAD: " width="100" height="100"><br>Head<br>-</div></div>
+						<div class="PDemcee2"><div id="head"><img src="assets/black.png" alt="ASSISTANT: " width="100" height="100"><br>Assistant<br>-</div></div>
+						<div class="PDemcee3"><div id="memberPD2"><img src="jfcommitteepic/Emcee/Adiba%20Wajihah%20Binti%20Ramli.jpg" alt="MEMBER: ADIBA WAJIHAH BINTI RAMLI" width="100" height="100"><br>Member<br>ADIBA WAJIHAH<br>BINTI RAMLI</div></div>
+						<div class="PDemcee4"><div id="memberPD"><img src="jfcommitteepic/Emcee/Ho%20Li%20Min.jpg" alt="MEMBER: HO LI MIN" width="100" height="100"><br>Member<br>HO LI MIN</div></div>
+						<div class="PDemcee5"><div id="memberPD"><img src="jfcommitteepic/Emcee/Chan%20Jey%20Yee.jpg" alt="MEMBER: CHAN JEY YEE" width="100" height="100"><br>Member<br>CHAN JEY YEE</div></div>
+						<div class="PDemcee6"><div id="memberPD2"><img src="jfcommitteepic/Emcee/Ahmad%20Jasfaizi%20bin%20Jasni.jpg" alt="MEMBER: AHMAD JASFAIZI BIN JASNI" width="100" height="100"><br>Member<br>AHMAD JASFAIZI<br>BIN JASNI</div></div>
+					</div>
+					<div id="departmentA3" class="department">MULTIMEDIA</div>
+					<div id="PDmultimedia">
+						<img id="MULTIMEDIA" src="assets/department/MULTIMEDIA.png">
+						<div class="PDmultimedia1"><div id="head"><img src="jfcommitteepic/Multimedia/Cheng%20Yu%20Chian%20(Head).jpg" alt="HEAD: CHENG YU CHIAN" width="100" height="100"><br>Head<br>CHENG YU CHIAN</div></div>
+						<div class="PDmultimedia2"><div id="head2"><img src="jfcommitteepic/Multimedia/Chong%20Kong%20Sheng%20(Assistant).jpg" alt="ASSISTANT: CHONG KONG SHENG" width="100" height="100"><br>Assistant<br>CHONG KONG<br>SHENG</div></div>
+						<div class="PDmultimedia3"><div id="memberPD"><img src="jfcommitteepic/Multimedia/Ang%20Shin%20Nee.jpg" alt="MEMBER: ANG SHIN NEE" width="100" height="100"><br>Member<br>ANG SHIN NEE</div></div>
+						<div class="PDmultimedia4"><div id="memberPD"><img src="jfcommitteepic/Multimedia/Ng%20Kim%20Boon.jpg" alt="MEMBER: NG KIM BOON" width="100" height="100"><br>Member<br>NG KIM BOON</div></div>
+					</div> 
+
+
+					<!--departments under vpd public-->
+					<img onclick="Departments2()" id="arrowdown2" class="arrows" src="assets/greenArrowDown.png">
+
+					<div id="departmentB1" class="department">SPONSORSHIP</div>
+					<div id="VPDpublic_sponsorship">
+						<img id="SPONSORSHIP" src="assets/department/SPONSORSHIP.png">
+						<div class="VPDpublic_sponsorship1"><div id="head"><img src="jfcommitteepic/Sponsorship/Goh%20Pei%20Ting%20(Head).jpg" alt="HEAD: GOH PEI TING" width="100" height="100"><br>Head<br>GOH PEI TING</div></div>
+						<div class="VPDpublic_sponsorship2"><div id="head"><img src="assets/black.png" alt="ASSISTANT: " width="100" height="100"><br>Assistant<br>-</div></div>
+						<div class="VPDpublic_sponsorship3"><div id="memberVPDpublic"><img src="jfcommitteepic/Sponsorship/Sponsorship%20-%20Yap%20Wai%20Teng.jpg" alt="MEMBER: YAP WAI TENG" width="100" height="100"><br>Member<br>YAP WAI TENG</div></div>
+						<div class="VPDpublic_sponsorship4"><div id="memberVPDpublic"><img src="jfcommitteepic/Sponsorship/Sponsorship%20-%20Lee%20Wei%20Min.jpg" alt="MEMBER: LEE WEI MIN" width="100" height="100"><br>Member<br>LEE WEI MIN</div></div>
+						<div class="VPDpublic_sponsorship5"><div id="memberVPDpublic"><img src="jfcommitteepic/Sponsorship/Sponsorship%20-%20Lim%20Xiu%20Ni.jpg" alt="MEMBER: LIM XIU NI" width="100" height="100"><br>Member<br>LIM XIU NI</div></div>
+						<div class="VPDpublic_sponsorship6"><div id="memberVPDpublic"><img src="jfcommitteepic/Sponsorship/Sponsorship%20-%20Lim%20Kee%20Hian.jpg" alt="MEMBER: LIM KEE HIAN" width="100" height="100"><br>Member<br>LIM KEE HIAN</div></div>
+					</div>
+					<div id="departmentB2" class="department">PUBLIC RELATION</div>
+					<div id="VPDpublic_publicRelation">
+						<img id="PUBLICRELATION" src="assets/department/PUBLICRELATION.png">
+						<div class="VPDpublic_publicRelation1"><div id="head"><img src="jfcommitteepic/PublicRelation/Wong%20Suey%20Erz%20(Head).jpg" alt="HEAD: WONG SUEY ERZ" width="100" height="100"><br>Head<br>WONG SUEY ERZ</div></div>
+						<div class="VPDpublic_publicRelation2"><div id="head"><img src="jfcommitteepic/PublicRelation/Ng%20Pui%20Leng.jpg" alt="ASSISTANT: NG PUI LENG" width="100" height="100">Assistant<br>NG PUI LENG</div></div>
+						<div class="VPDpublic_publicRelation3"><div id="head2"><img src="jfcommitteepic/PublicRelation/Chong%20Yeung%20Ling.jpg" alt="ASSISTANT: CHONG YEUNG LING" width="100" height="100">Assistant<br>CHONG YEUNG<br>LING</div></div>
+						<div class="VPDpublic_publicRelation4"><div id="memberVPDpublic"><img src="jfcommitteepic/PublicRelation/TAN%20CHUN%20KIAT.jpg" alt="MEMBER: TAN CHUN KIAT" width="100" height="100"><br>Member<br>TAN CHUN KIAT</div></div>
+						<div class="VPDpublic_publicRelation5"><div id="memberVPDpublic"><img src="jfcommitteepic/PublicRelation/Hew%20Huang.jpg" alt="MEMBER: HEW HUANG" width="100" height="100"><br>Member<br>HEW HUANG</div></div>
+						<div class="VPDpublic_publicRelation6"><div id="memberVPDpublic"><img src="jfcommitteepic/PublicRelation/Koh%20Chee%20Lin.jpg" alt="MEMBER: KOH CHEE LIN" width="100" height="100"><br>Member<br>KOH CHEE LIN</div></div>
+						<div class="VPDpublic_publicRelation7"><div id="memberVPDpublic"><img src="jfcommitteepic/PublicRelation/Li%20Yi%20Qui.jpg" alt="MEMBER: LI YI QUI" width="100" height="100"><br>Member<br>LI YI QUI</div></div>
+						<div class="VPDpublic_publicRelation8"><div id="memberVPDpublic"><img src="jfcommitteepic/PublicRelation/Chew%20Bao%20Bao.jpg" alt="MEMBER: CHEW BAO BAO" width="100" height="100"><br>Member<br>CHEW BAO BAO</div></div>
+						<div class="VPDpublic_publicRelation9"><div id="memberVPDpublic"><img src="jfcommitteepic/PublicRelation/Tuen%20Kim%20Yoke.jpg" alt="MEMBER: TUEN KIM YOKE" width="100" height="100"><br>Member<br>TUEN KIM YOKE</div></div>
+						<div class="VPDpublic_publicRelation10"><div id="memberVPDpublic"><img src="jfcommitteepic/PublicRelation/Ng%20Shi%20Teng.jpg" alt="MEMBER: NG SHI TENG" width="100" height="100"><br>Member<br>NG SHI TENG</div></div>
+					</div>
+					<div id="departmentB3" class="department">PUBLICITY</div>
+					<div id="VPDpublic_publicity">
+						<div class="VPDpublic_publicity1"><div id="head"><img src="jfcommitteepic/Publicity/Lim%20Hooi%20Min%20(Head).jpg" alt="HEAD: LIM HOOI MIN" width="100" height="100">Head<br>LIM HOOI MIN</div></div>
+						<div class="VPDpublic_publicity2"><div id="head"><img src="jfcommitteepic/Publicity/Loh%20Chiau%20Yung%20(Assistant).jpg" alt="ASSISTANT: LOH CHIAU YUNG" width="100" height="100"><br>Assistant<br>LOH CHIAU YUNG</div></div>
+						<div class="VPDpublic_publicity3"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Cheng%20Man%20Xin.jpg" alt="MEMBER: CHENG MAN XIN" width="100" height="100"><br>Member<br>CHENG MAN XIN</div></div>
+						<div class="VPDpublic_publicity4"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Teoh%20Ying%20Ying.jpg" alt="MEMBER: TEOH YING YING" width="100" height="100"><br>Member<br>TEOH YING YING</div></div>
+						<div class="VPDpublic_publicity5"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Chan%20Yin%20Mun.jpg" alt="MEMBER: CHAN YIN MUN" width="100" height="100"><br>Member<br>CHAN YIN MUN</div></div>
+						<div class="VPDpublic_publicity6"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Tan%20Soon%20Teck.jpg" alt="MEMBER: TAN SOON TECK" width="100" height="100"><br>Member<br>TAN SOON TECK</div></div>
+						<div class="VPDpublic_publicity7"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Lu%20Min%20Yi.jpg" alt="MEMBER: LU MIN YI" width="100" height="100"><br>Member<br>LU MIN YI</div></div>
+						<div class="VPDpublic_publicity8"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Jimmy%20Ting.jpg" alt="MEMBER: JIMMY TING" width="100" height="100"><br>Member<br>JIMMY TING</div></div>
+						<div class="VPDpublic_publicity9"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Mohd%20Firaz%20Azmi.jpg" alt="MEMBER: MOHD FIRAZ AZMI" width="100" height="100"><br>Member<br>MOHD FIRAZ AZMI</div></div>
+						<div class="VPDpublic_publicity10"><div id="memberVPDpublic2"><img src="jfcommitteepic/Publicity/Amirul%20Hakim%20Ismar.jpg" alt="MEMBER: AMIRUL HAKIM ISMAR" width="100" height="100"><br>Member<br>AMIRUL HAKIM ISMAR</div></div>
+						<div class="VPDpublic_publicity11"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Mohd%20Izudin%20Sarponin.jpg" alt="MEMBER: MOHD IZZUDIN" width="100" height="100"><br>Member<br>MOHD IZZUDIN</div></div>
+						<div class="VPDpublic_publicity12"><div id="memberVPDpublic"><img src="jfcommitteepic/Publicity/Lim%20Xin%20Jie.jpg" alt="MEMBER: LIM XIN JIE" width="100" height="100"><br>Member<br>LIM XIN JIE</div></div>
+						<img id="PUBLICITY" src="assets/department/PUBLICITY.png">
+					</div>
+
+
+					<!--departments under vpd exhibition-->
+					<img onclick="Departments3()" id="arrowdown3" class="arrows" src="assets/greenArrowDown.png">
+
+					<div id="departmentC1" class="department">DECORATION &amp; DESIGN</div>
+					<div id="VPDexhibition_dnd">
+						<img id="DECODESIGN" src="assets/department/DECODESIGN.png">
+						<div class="VPDexhibition_dnd1"><div id="head"><img src="jfcommitteepic/DecorationNdesign/Vivian%20Liew%20Fui%20Chu%20(Head).jpg" alt="HEAD: LIEW FUI CHU" width="100" height="100"><br>Head<br>LIEW FUI CHU</div></div>
+						<div class="VPDexhibition_dnd2"><div id="head"><img src="jfcommitteepic/DecorationNdesign/Cheng%20Wan%20Qiao%20(Assistant).jpg" alt="ASSISTANT: CHENG WAN QIAO" width="100" height="100"><br>Assistant<br>CHENG WAN QIAO</div></div>
+						<div class="VPDexhibition_dnd3"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Tan%20Yin%20Shuang.jpg" alt="MEMBER: TAN YIN SHUANG" width="100" height="100"><br>Member<br>TAN YIN SHUANG</div></div>
+						<div class="VPDexhibition_dnd4"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Goh%20Jia%20Miin.jpg" alt="MEMBER: GOH JIA MIIN" width="100" height="100"><br>Member<br>GOH JIA MIIN</div></div>
+						<div class="VPDexhibition_dnd5"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Jun%20Le.jpg" alt="MEMBER: JUN LE" width="100" height="100"><br>Member<br>JUN LE</div></div>
+						<div class="VPDexhibition_dnd6"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Lim%20Joo%20Yen.jpg" alt="MEMBER: LIM JOO YEN" width="100" height="100"><br>Member<br>LIM JOO YEN</div></div>
+						<div class="VPDexhibition_dnd7"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Loh%20Siew%20Ching.jpg" alt="MEMBER: LOH SIEW CHING" width="100" height="100"><br>Member<br>LOH SIEW CHING</div></div>
+						<div class="VPDexhibition_dnd8"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Ng%20Shih%20Ee.jpg" alt="MEMBER: NG SHIH EE" width="100" height="100"><br>Member<br>NG SHIH EE</div></div>
+						<div class="VPDexhibition_dnd9"><div id="memberVPDexhibition2"><img src="jfcommitteepic/DecorationNdesign/Syeila%20suhana%20binti%20fadzil.jpg" alt="MEMBER: SYEILA SUHANA BINTI FADZIL" width="100" height="100"><br>Member<br>SYEILA SUHANA<br>BINTI FADZIL</div></div>
+						<div class="VPDexhibition_dnd10"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Tan%20Xiang%20Han.jpg" alt="MEMBER: TAN XIANG HAN" width="100" height="100"><br>Member<br>TAN XIANG HAN</div></div>
+						<div class="VPDexhibition_dnd11"><div id="memberVPDexhibition"><img src="jfcommitteepic/DecorationNdesign/Than%20Yin%20Jie.jpg" alt="MEMBER: THAN YIN JIE" width="100" height="100"><br>Member<br>THAN YIN JIE</div></div>
+					</div>
+					<div id="departmentC2" class="department">GAMES &amp; COMPETITION</div>
+					<div id="VPDexhibition_games">
+						<img id="GAMESCOMPETITION" src="assets/department/GAMESCOMPETITION.png">
+						<div class="VPDexhibition_games1"><div id="head"><img src="assets/black.png" alt="HEAD: " width="100" height="100"><br>Head<br>-</div></div>
+						<div class="VPDexhibition_games2"><div id="head"><img src="assets/black.png" alt="ASSISTANT: " width="100" height="100"><br>Assistant<br>-</div></div>
+						<div class="VPDexhibition_games3"><div id="memberVPDexhibition"><img src="jfcommitteepic/GamesNcompetition/Tan%20Sok%20Kian.jpg" alt="MEMBER: TAN SOK KIAN" width="100" height="100"><br>Member<br>TAN SOK KIAN</div></div>
+						<div class="VPDexhibition_games4"><div id="memberVPDexhibition"><img src="jfcommitteepic/GamesNcompetition/Lee%20Yi%20Zhe.jpg" alt="MEMBER: LEE YI ZHE" width="100" height="100"><br>Member<br>LEE YI ZHE</div></div>
+						<div class="VPDexhibition_games5"><div id="memberVPDexhibition"><img src="" alt="MEMBER: LIM CHUI TENG" width="100" height="100"><br>Member<br>LIM CHUI TENG</div></div>
+					</div>
+					<div id="departmentC3" class="department">CARNIVAL &amp; EXHIBITION</div>
+					<div id="VPDexhibition_carnival">
+						<div class="VPDexhibition_carnival1"><div id="head"><img src="jfcommitteepic/CarnivalNexhibition/Wong%20Yean%20San%20(Head).jpg" alt="HEAD: WONG YEAN SAN" width="100" height="100"><br>Head<br>WONG YEAN SAN</div></div>
+						<div class="VPDexhibition_carnival2"><div id="head"><img src="jfcommitteepic/CarnivalNexhibition/Ung%20Sin%20Pei%20(Assistant).jpg" alt="ASSISTANT: UNG SIN PEI" width="100" height="100"><br>Assistant<br>UNG SIN PEI</div></div>
+						<div class="VPDexhibition_carnival3"><div id="memberVPDexhibition"><img src="jfcommitteepic/CarnivalNexhibition/Teh%20Shu%20Yi.jpg" alt="MEMBER: TEH SHU YI" width="100" height="100"><br>Member<br>TEH SHU YI</div></div>
+						<div class="VPDexhibition_carnival4"><div id="memberVPDexhibition"><img src="jfcommitteepic/CarnivalNexhibition/Wong%20Xi%20Yan.jpg" alt="MEMBER: WONG XI YAN" width="100" height="100"><br>Member<br>WONG XI YAN</div></div>
+						<div class="VPDexhibition_carnival5"><div id="memberVPDexhibition"><img src="jfcommitteepic/CarnivalNexhibition/Chin%20Kah%20Yuen.jpg" alt="MEMBER: CHIN KAH YUEN" width="100" height="100"><br>Member<br>CHIN KAH YUEN</div></div>
+						<div class="VPDexhibition_carnival6"><div id="memberVPDexhibition"><img src="jfcommitteepic/CarnivalNexhibition/Ooi%20Sin%20Eng.jpg" alt="MEMBER: OOI SIN ENG" width="100" height="100"><br>Member<br>OOI SIN ENG</div></div>
+						<div class="VPDexhibition_carnival7"><div id="memberVPDexhibition2"><img src="jfcommitteepic/CarnivalNexhibition/Angeline%20Lee%20May%20Chin.jpg" alt="MEMBER: ANGELINE LEE MAY CHIN" width="100" height="100"><br>Member<br>ANGELINE LEE MAY CHIN</div></div>
+						<div class="VPDexhibition_carnival8"><div id="memberVPDexhibition"><img src="jfcommitteepic/CarnivalNexhibition/Chong%20Pei%20Ling.jpg" alt="MEMBER: CHONG PEI LING" width="100" height="100"><br>Member<br>CHONG PEI LING</div></div>
+						<img id="CARNIVALEXHIBITION" src="assets/department/CARNIVALEXHIBITION.png">
+					</div>
+					<div id="departmentC4" class="department">TICKETING</div>
+					<div id="VPDexhibition_ticket">
+						<div class="VPDexhibition_ticket1"><div id="head"><img src="jfcommitteepic/Ticketing/Pua%20Lei%20Kian%20(Head).jpg" alt="HEAD: PUA LEI KIAN" width="100" height="100"><br>Head<br>PUA LEI KIAN</div></div>
+						<div class="VPDexhibition_ticket2"><div id="head"><img src="jfcommitteepic/Ticketing/Tan%20Xin%20Ying%20(Assistant).jpg" alt="ASSISTANT: TAN XIN YING" width="100" height="100"><br>Assistant<br>TAN XIN YING</div></div>
+						<div class="VPDexhibition_ticket3"><div id="head"><img src="jfcommitteepic/Ticketing/Tan%20Lee%20Min%20(Assistant).jpg" alt="ASSISTANT: TAN LEE MIN" width="100" height="100"><br>Assistant<br>TAN LEE MIN</div></div>
+						<div class="VPDexhibition_ticket4"><div id="memberVPDexhibition"><img src="jfcommitteepic/Ticketing/Kok%20Mee%20Ying.jpg" alt="MEMBER: KOK MEE YING" width="100" height="100"><br>Member<br>KOK MEE YING</div></div>
+						<div class="VPDexhibition_ticket5"><div id="memberVPDexhibition"><img src="jfcommitteepic/Ticketing/Lim%20Wui%20Koon.jpg" alt="MEMBER: LIM WUI KOON" width="100" height="100"><br>Member<br>LIM WUI KOON</div></div>
+						<img id="TICKET" src="assets/department/TICKET.png">
+					</div>
+
+
+					<!--departments under vpd event-->
+					<img onclick="Departments4()" id="arrowdown4" class="arrows" src="assets/greenArrowDown.png">
+
+					<div id="departmentD1" class="department">EVENT</div>
+					<div id="VPDevent_event">
+						<img id="EVENT" src="assets/department/EVENT.png">
+						<div class="VPDevent_event1"><div id="head2"><img src="jfcommitteepic/Event/Choong%20Kuo%20Yuh%20(Head).jpg" alt="HEAD: CHOONG KUO YUH" width="100" height="100"><br>Head<br>CHOONG KUO<br>YUH</div></div>
+						<div class="VPDevent_event2"><div id="head"><img src="jfcommitteepic/Event/Goh%20Sau%20Hong%20(assist%201).jpg" alt="ASSISTANT: GOH SAU HONG" width="100" height="100"><br>Assistant<br>GOH SAU HONG</div></div>
+						<div class="VPDevent_event3"><div id="head"><img src="jfcommitteepic/Event/Ong%20Chin%20Kun%20(assist%202).jpg" alt="ASSISTANT: ONG CHIN KUN" width="100" height="100"><br>Assistant<br>ONG CHIN KUN</div></div>
+						<div class="VPDevent_event4"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Chen%20Mun%20Ching.jpg" alt="MEMBER: CHEN MUN CHING" width="100" height="100"><br>Member<br>CHEN MUN CHING</div></div>
+						<div class="VPDevent_event5"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Chin%20Hooi%20Shi.jpg" alt="MEMBER: CHIN HOOI SHI" width="100" height="100"><br>Member<br>CHIN HOOI SHI</div></div>
+						<div class="VPDevent_event6"><div id="memberVPDevent2"><img src="jfcommitteepic/Event/Elaine%20Ying%20Chew%20Lin.jpg" alt="MEMBER: ELAINE YING CHEW LIN" width="100" height="100"><br>Member<br>ELAINE YING CHEW LIN</div></div>
+						<div class="VPDevent_event7"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Goh%20Suat%20Ting.jpg" alt="MEMBER: GOH SUAT TING" width="100" height="100"><br>Member<br>GOH SUAT TING</div></div>
+						<div class="VPDevent_event8"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Leong%20Jye%20Yin.jpg" alt="MEMBER: LEONG JYE YIN" width="100" height="100"><br>Member<br>LEONG JYE YIN</div></div>
+						<div class="VPDevent_event9"><div id="memberVPDevent2"><img src="jfcommitteepic/Event/Melina%20Cheay%20Mei%20Yi.jpg" alt="MEMBER: MELINA CHEAY MEI YI" width="100" height="100"><br>Member<br>MELINA CHEAY MEI YI</div></div>
+						<div class="VPDevent_event10"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Siow%20Lian%20Giak.jpg" alt="MEMBER: SIOW LIAN GIAK" width="100" height="100"><br>Member<br>SIOW LIAN GIAK</div></div>
+						<div class="VPDevent_event11"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Tan%20Ke%20Xin.jpg" alt="MEMBER: TAN KE XIN" width="100" height="100"><br>Member<br>TAN KE XIN</div></div>
+						<div class="VPDevent_event12"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Tee%20Hui%20Min.jpg" alt="MEMBER:TEE HUI MIN" width="100" height="100"><br>Member<br>TEE HUI MIN</div></div>
+						<div class="VPDevent_event13"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Teng%20Teck%20Jin.jpg" alt="MEMBER: TENG TECK JIN" width="100" height="100"><br>Member<br>TENG TECK JIN</div></div>
+						<div class="VPDevent_event14"><div id="memberVPDevent"><img src="jfcommitteepic/Event/Teow%20Hooi%20Siam.jpg" alt="MEMBER: TEOW HOOI SIAM" width="100" height="100"><br>Member<br>TEOW HOOI SIAM</div></div>
+					</div>
+					<div id="departmentD2" class="department">PROTOCOL &amp; SECRETARIAT</div>
+					<div id="VPDevent_pns">
+						<img id="PROTOCOLSECRETARIAT" src="assets/department/PROTOCOLSECRETARIAT.png">
+						<div class="VPDevent_pns1"><div id="head"><img src="jfcommitteepic/ProtocolNsecretariat/Teh%20Poh%20Gaik%20(Head).jpg" alt="HEAD: TEH POH GAIK" width="100" height="100">Head<br>TEH POH GAIK</div></div>
+						<div class="VPDevent_pns2"><div id="head"><img src="jfcommitteepic/ProtocolNsecretariat/Soo%20Yin%20Yin%20(Assistant).jpg" alt="ASSISTANT: SOO YIN YIN" width="100" height="100"><br>Assistant<br>SOO YIN YIN</div></div>
+						<div class="VPDevent_pns3"><div id="memberVPDevent"><img src="jfcommitteepic/ProtocolNsecretariat/Chin%20Jia%20Qi.jpg" alt="MEMBER: CHIA JIA QI" width="100" height="100"><br>Member<br>CHIN JIA QI</div></div>
+						<div class="VPDevent_pns4"><div id="memberVPDevent"><img src="jfcommitteepic/ProtocolNsecretariat/Kang%20Pei%20Ying.jpg" alt="MEMBER: KANG PEI YING" width="100" height="100"><br>Member<br>KANG PEI YING</div></div>
+						<div class="VPDevent_pns5"><div id="memberVPDevent"><img src="jfcommitteepic/ProtocolNsecretariat/Lai%20Lay%20Cheng.jpg" alt="MEMBER: LAI LAY CHENG" width="100" height="100"><br>Member<br>LAI LAY CHENG</div></div>
+						<div class="VPDevent_pns6"><div id="memberVPDevent"><img src="jfcommitteepic/ProtocolNsecretariat/Yap%20Suk%20Wy.jpg" alt="MEMBER: YAP SUK WY" width="100" height="100"><br>Member<br>YAP SUK WY</div></div>
+						<div class="VPDevent_pns7"><div id="memberVPDevent"><img src="jfcommitteepic/ProtocolNsecretariat/Tan%20Seok%20Ching.jpg" alt="MEMBER: TAN SEOK CHING" width="100" height="100"><br>Member<br>TAN SEOK CHING</div></div>
+					</div>
+					<div id="departmentD3" class="department">HALL</div>
+					<div id="VPDevent_hall">
+						<div class="VPDevent_hall1"><div id="head"><img src="jfcommitteepic/Hall/Tan%20Nian%20Rou%20(Head).jpg" alt="HEAD: TAN NIAN ROU" width="100" height="100"><br>Head<br>TAN NIAN ROU</div></div>
+						<div class="VPDevent_hall2"><div id="head"><img src="jfcommitteepic/Hall/Cheeh%20Hui%20Sin%20(assistant%201).jpg" alt="ASSISTANT: CHEEH HUI SIN" width="100" height="100"><br>Assistant<br>CHEEH HUI SIN</div></div>
+						<div class="VPDevent_hall3"><div id="head"><img src="jfcommitteepic/Hall/Chin%20Chun%20How%20(assistant%202).jpg" alt="ASSISTANT: CHIN CHUN HOW" width="100" height="100"><br>Assistant<br>CHIN CHUN HOW</div></div>
+						<div class="VPDevent_hall4"><div id="memberVPDevent"><img src="jfcommitteepic/Hall/Leong%20Li%20Yit.jpg" alt="MEMBER: LEONG LI YIT" width="100" height="100"><br>Member<br>LEONG LI YIT</div></div>
+						<div class="VPDevent_hall5"><div id="memberVPDevent"><img src="jfcommitteepic/Hall/Lim%20Kiau%20Yeh.jpg" alt="MEMBER: LIM KIAU YEH" width="100" height="100"><br>Member<br>LIM KIAU YEH</div></div>
+						<div class="VPDevent_hall6"><div id="memberVPDevent"><img src="jfcommitteepic/Hall/Tan%20Shu%20Hui.jpg" alt="MEMBER: TAN SHU HUI" width="100" height="100"><br>Member<br>TAN SHU HUI</div></div>
+						<div class="VPDevent_hall7"><div id="memberVPDevent2"><img src="jfcommitteepic/Hall/Toh%20Shaing%20Sting.jpg" alt="MEMBER: TOH SHAING STING" width="100" height="100"><br>Member<br>TOH SHAING<br>STING</div></div>
+						<div class="VPDevent_hall8"><div id="memberVPDevent2"><img src="jfcommitteepic/Hall/Yeow%20Zhon%20Chien.jpg" alt="MEMBER: YEOW ZHON CHIEN" width="100" height="100"><br>Member<br>YEOW ZHON<br>CHIEN</div></div>
+						<div class="VPDevent_hall9"><div id="memberVPDevent"><img src="jfcommitteepic/Hall/Chou%20Pui%20Mun.jpg" alt="MEMBER: CHOU PUI MUN" width="100" height="100"><br>Member<br>CHOU PUI MUN</div></div>
+						<img id="HALL" src="assets/department/HALL.png">
+					</div>
+					<div id="departmentD4" class="department">LOGISTIC</div>
+					<div id="VPDevent_logistic">
+						<img id="LOGISTIC" src="assets/department/LOGISTIC.png">
+						<div class="VPDevent_logistic1"><div id="head"><img src="jfcommitteepic/Logistic/Ng%20Hui%20Xian%20(Head).jpg" alt="HEAD: NG HUI XIAN" width="100" height="100"><br>Head<br>NG HUI XIAN</div></div>
+						<div class="VPDevent_logistic2"><div id="head"><img src="assets/black.png" alt="ASSISTANT: " width="100" height="100"><br>Assistant<br>-</div></div>
+						<div class="VPDevent_logistic3"><div id="memberVPDevent2"><img src="jfcommitteepic/Logistic/Tan%20Choon%20Siang.jpg" alt="MEMBER: TAN CHOON SIANG" width="100" height="100"><br>Member<br>TAN CHOON<br>SIANG</div></div>
+						<div class="VPDevent_logistic4"><div id="memberVPDevent"><img src="jfcommitteepic/Logistic/Yeo%20Twee%20Yee.jpg" alt="MEMBER: YEO TWEE YEE" width="100" height="100"><br>Member<br>YEO TWEE YEE</div></div>
+						<div class="VPDevent_logistic5"><div id="memberVPDevent"><img src="jfcommitteepic/Logistic/Lau%20Yong%20Sern.jpg" alt="MEMBER: LAU YONG SERN" width="100" height="100"><br>Member<br>LAU YONG SERN</div></div>
+						<div class="VPDevent_logistic6"><div id="memberVPDevent"><img src="jfcommitteepic/Logistic/Vanessa%20Chin.jpg" alt="MEMBER: VANESSA CHIN" width="100" height="100"><br>Member<br>VANESSA CHIN</div></div>
+					</div>
+					
+			</div>
+		</section>
+
+		<footer>
+			<p> </p>
+		</footer>
+
+	</body>
+
+</html>

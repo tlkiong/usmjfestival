@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+	<head>
+		<title>Schedule - 2014 USM Japan Festival - Haru</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<style>
+			body {
+				background-image: url(assets/mainbackground.jpg);
+				background-size: cover;
+				background-attachment: fixed;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="jfmainpage.html"><img src="assets/japanaa.png" alt="USM Japan Festival 2014 logo" id="HaruLogo"></a></li>
+					<!-- logo, when clicked, back to the main page, with prom.video-->
+					<li><a href="jfabout.html" id="Navigate">ABOUT</a></li>
+					<li><a class="current" href="#">SCHEDULE</a></li>
+					<li><a href="jfvenue.html" id="Navigate">VENUE</a></li>
+					<li><a href="jfsponsors.html" id="Navigate">SPONSORS</a></li>
+					<li><a href="jfcommittee2014.html" id="Navigate">COMMITTEE 2014</a></li>
+					<li><a href="jfcontactus.html" id="Navigate">CONTACT US</a></li>
+				</ul>
+			</nav>
+			<h1 id="title">SCHEDULE</h1>
+		</header>
+		
+		<section>
+			<div id="Schedule">
+				<img id="schedule_tree" src="assets/scheduletree.png">
+				<img onclick="Date1()" id="schedule_ring" class="s1" src="assets/schedule1.png">
+				<img onclick="Date2()" id="schedule_ring" class="s2" src="assets/schedule2.png">
+				<img onclick="Date3()" id="schedule_ring" class="s3" src="assets/schedule3.png">
+			</div>
+
+			<script>
+			function Date1() {
+			    document.getElementById('Act1').style.display = "block";
+				if(document.getElementById('Act2').style.display == 'block')
+					{document.getElementById('Act2').style.display = 'none'}
+				if(document.getElementById('Act3').style.display == 'block')
+					{document.getElementById('Act3').style.display = 'none'}
+				return false;				
+			}
+
+			function Date2() {
+			    document.getElementById('Act2').style.display = "block";
+				if(document.getElementById('Act1').style.display == 'block')
+					{document.getElementById('Act1').style.display = 'none'}
+				if(document.getElementById('Act3').style.display == 'block')
+					{document.getElementById('Act3').style.display = 'none'}
+				return false;
+			}
+
+			function Date3() {
+			    document.getElementById('Act3').style.display = "block";
+				if(document.getElementById('Act1').style.display == 'block')
+					{document.getElementById('Act1').style.display = 'none'}
+				if(document.getElementById('Act2').style.display == 'block')
+					{document.getElementById('Act2').style.display = 'none'}
+				return false;	
+			}
+			
+			</script>
+
+			<div id="Act1">
+				<h1>1st - 3rd OCTOBER 2014<br><br>Traditional Exhibition</h1>
+			</div>
+			<div id="Act2">
+				<h1>4th - 5th OCTOBER 2014<br><br>Anime and Model Exhibition</h1>
+			</div>
+			<div id="Act3">
+				<h1>JAPAN FESTIVAL NIGHT</h1>
+				<table class="jfnight" style="width:900px">
+					<tr>
+						<td>6:30 pm - 7:00 pm</td>
+						<td>Entrance of Audience</td>
+						<td>8:25 pm - 8:30 pm</td>
+						<td>Emcee</td>
+					</tr>
+					<tr>
+						<td>7:00 pm - 7:05 pm</td>
+						<td>Arrival of VIP</td>
+						<td>8:30 pm - 8:40 pm</td>
+						<td>Video 2</td>
+					</tr>
+					<tr>
+						<td>7:05 pm - 7:10 pm</td>
+						<td>Singing of National Anthem,</td>
+						<td>8:40 pm - 8:55 pm</td>
+						<td>Anime Dance 2</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Menara Ilmu</td>
+						<td></td>
+						<td>(Li Hua Dance Group)</td>
+					</tr>
+					<tr>
+						<td>7:10 pm - 7:15 pm</td>
+						<td>Speech from Project Director</td>
+						<td>8:55 pm - 9:00 pm</td>
+						<td>Emcee</td>
+					</tr>
+					<tr>
+						<td>7:15 pm - 7:25 pm</td>
+						<td>Speech from VIP (2 person)</td>
+						<td>9:00 pm - 9:10 pm</td>
+						<td>Judo</td>
+					</tr>
+					<tr>
+						<td>7:25 pm - 7:30 pm</td>
+						<td>Opening Ceremony</td>
+						<td>9:10 pm - 9:15 pm</td>
+						<td>Emcee</td>
+					</tr>
+					<tr>
+						<td>7:30 pm - 7:35 pm</td>
+						<td>Presentation of Souvenir to VIP</td>
+						<td>9:15 pm - 9:30 pm</td>
+						<td>Rock Band Singing (3 songs)</td>
+					</tr>
+					<tr>
+						<td>7:35 pm - 7:40 pm</td>
+						<td>Video 1</td>
+						<td>9:30 pm - 9:35 pm</td>
+						<td>Emcee</td>
+					</tr>
+					<tr>
+						<td>7:40 pm - 7:55 pm</td>
+						<td>Wadaiko</td>
+						<td>9:35 pm - 10:00 pm</td>
+						<td>Cosplayer/Fashion Show</td>
+					</tr>
+					<tr>
+						<td>7:55 pm - 8:00 pm</td>
+						<td>Emcee</td>
+						<td>10:00 pm - 10:05 pm</td>
+						<td>Emcee</td>
+					</tr>
+					<tr>
+						<td>8:00 pm - 8:10 pm</td>
+						<td>Anime Dance 1</td>
+						<td>10:05 pm - 10:15 pm</td>
+						<td>Singing from All the JF Committee</td>
+					</tr>
+					<tr>
+						<td> </td>
+						<td>(Engineering Campus Dance Group)</td>
+						<td>10:15 pm - 10:25 pm</td>
+						<td>Introduction of the Committee</td>
+					</tr>
+					<tr>
+						<td>8:10 pm - 8:15 pm</td>
+						<td>Emcee</td>
+						<td>10:25 pm - 10:30 pm</td>
+						<td>End of Japan Festival</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+		<footer>
+		</footer>
+
+	</body>
+
+</html>

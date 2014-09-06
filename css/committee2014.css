@@ -1,0 +1,581 @@
+/*************** JF COMMITTEE 2014 CSS FILE CONTENT ***************/
+
+/*
+
+BOXES FOR COMMITTEE MEMBERS + DEPARTMENTS		LINE 39
+GENERAL LINES									LINE 140
+MAIN LINES										LINE 166
+PD 												LINE 182
+- Lines from PD to department
+- Departments under PD
+- Web Admin
+- Emcee
+- Multimedia
+VPD PUBLIC 										LINE 264
+- Lines from PD to department
+- Departments under VPD Public
+- Sponsorship
+- Public Relation
+- Publicity
+VPD EXHIBITION 									LINE 358
+- Lines from PD to department
+- Departments under VPD Exhibition
+- Decoration & Design
+- Games & Competition
+- Carnival & Exhibition
+- Ticketing
+VPD EVENT 										LINE 467
+- Lines from PD to department
+- Departments under VPD Event
+- Event
+- Protocol & Secretariat
+- Hall
+- Logistic
+
+*/
+
+
+
+/* BOXES FOR COMMITTEE MEMBERS + DEPARTMENTS */
+
+/*GENERAL - whatever inside the transparent white slide*/
+#committee2014 {
+	font-size: 0.9em;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	width: 1000px;
+	min-height: 1670px;
+	height: 100%;
+	background-image: url("../assets/transparentwhite.png");
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+
+/*MAIN COMMITTEE - scroll down to line 129-132 for background color (PD and VPDs)*/
+#PD, #VPDpublic, #VPDexhibition, #VPDevent {
+	width: 120px;
+	height: 140px;
+	border-radius: 7.5px;
+	padding: 5px;
+}
+
+#PD {
+	border: 2px solid black;
+	margin: 20px;
+}
+
+#VPDpublic, #VPDexhibition, #VPDevent {
+	border: 2px solid #1A4E21;
+	margin: 20px 20px 20px 200px;
+}
+
+#others, #others2, #others3 {
+	width: 120px;
+	height: 140px;
+	background-color: #C0D5EF;
+	border: 2px solid black;
+	border-radius: 7.5px;
+	padding: 5px;
+}
+
+#others3 {height: 157px;}
+#others, #others3 {margin: 40px 20px 20px 150px;}
+#others2 {margin: 20px 20px 20px 270px;}
+
+/*THE YELLOW BAR*/
+.department {
+	font-size: 1.125em;
+	color: #1A4E21;
+	width: 400px;
+	height: 20px;
+	background-color: #FFFFC6;
+	border: 2px solid #FFFF1C;
+	border-radius: 7.5px;
+	margin-left: 523px;
+	padding: 5px;
+}
+
+#head, #head2{
+	width: 120px;
+	background-color: #87C8D9;
+	border: 2px solid #1A4E21;
+	border-radius: 7.5px;
+	margin: 20px;
+	margin-left: 532px;
+	padding: 5px;
+}
+
+#memberPD, #memberPD2 {
+	width: 120px;
+	border: 2px solid black;
+	border-radius: 7.5px;
+	margin: 20px;
+	margin-left: 532px;
+	padding: 5px;
+}
+
+#memberVPDpublic, #memberVPDpublic2, #memberVPDexhibition, #memberVPDexhibition2,
+#memberVPDevent, #memberVPDevent2 {
+	width: 120px;
+	border: 2px solid #1A4E21;
+	border-radius: 7.5px;
+	margin: 20px;
+	margin-left: 532px;
+	padding: 5px;
+}
+
+#PD, #memberPD, #memberPD2 {background-color: #81ABE0;} /*BLUE*/
+#VPDpublic, #memberVPDpublic, #memberVPDpublic2 {background-color: #D1F0D5;} /*lighter green*/
+#VPDexhibition, #memberVPDexhibition, #memberVPDexhibition2 {background-color: #A3E0AB;} /*light green*/
+#VPDevent, #memberVPDevent, #memberVPDevent2 {background-color: #75D181;} /*green*/
+
+#head, #memberPD, #memberVPDpublic, #memberVPDexhibition, #memberVPDevent {height: 140px;} /*short name*/
+#head2, #memberPD2, #memberVPDpublic2, #memberVPDexhibition2, #memberVPDevent2 {height: 157px;} /*long name*/
+
+
+/**********************************************************/
+
+/* GENERAL LINES */
+
+#VerticalLine, #HorizontalLine {
+	font-size:0;
+    color:#fff;
+    background-color:#000;
+    float: left;
+}
+
+#VerticalLine {width: 2px;}
+#HorizontalLine {height: 2px;}
+
+.arrows {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 2;
+}
+
+.arrows:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+/**********************************************************/
+
+/* MAIN LINES */
+
+.v1 {height: 1397px; margin: -20px 0 0 85px;}
+.v2 {height: 360px; margin: 70px 0 0 57.5px;}
+.hl1 {width: 54px; margin: 70px 0 0 0px;}
+.hl2 {width: 115px; margin: 250px 0 0 -115px;}
+.hl3 {width: 54px; margin: 428px 0 0 -54px;}
+.hl4 {width: 65px; margin: 608px 0 0 -115px;}
+.hl5 {width: 65px; margin: 828px 0 0 -115px;}
+.hl6 {width: 65px; margin: 1375px 0 0 -115px;}
+.v3 {height: 270px; margin: -20px 0 0 60px;}
+.hl7 {width: 59px; margin: 70px 0 0 0px;}
+.hl8 {width: 59px; margin: 248px 0 0 -60px;}
+
+/**********************************************************/
+
+/* LINES FROM PD TO DEPARTMENT */
+
+.hPD1 {width: 320px; margin: -1582px 0 0 153px;}
+.vPD1 {height: 300px; margin: -1642px 0 0 473px; float: right;}
+.hPD2 {width: 50px; margin: -1642px 0 0 473px;}
+.hPD3 {width: 50px; margin: -1492px 0 0 473px;}
+.hPD4 {width: 50px; margin: -1342px 0 0 473px;}
+#PD_line {display: none;}
+
+#arrow1 {margin: -1602px 0 0 -345px;}
+
+.hPD1e {width: 320px; margin: -1582px 0 0 153px;}
+.vPD1e {height: 1090px; margin: -1642px 0 0 473px; float: right;}
+.hPD2e {width: 50px; margin: -1642px 0 0 473px;}
+.hPD3e {width: 50px; margin: -1172px 0 0 473px;}
+.hPD4e {width: 50px; margin: -552px 0 0 473px;}
+#PD_line_expand {display: none;}
+
+
+/* DEPARTMENTS UNDER PD */
+
+#departmentA1 {margin-top: -1657px;}
+
+#departmentA1, #departmentA2, #departmentA3 {
+	margin-bottom: 115px;
+	display: none;
+}
+
+#arrowdown1 {
+	margin: -1660px 0 0 450px;
+	display: none;
+}
+
+
+
+/* WEB ADMIN */
+#PDwebAdmin {display: none;}
+
+.PDwebAdmin1 {margin: -100px 0 0 0;}
+.PDwebAdmin2 {margin: -174px 0 0 160px;}
+.PDwebAdmin3 {margin: -174px 0 0 320px;}
+.PDwebAdmin4 {margin: 0 0 0 320px;}
+.PDwebAdmin5 {margin: -100px 0 0 160px;}
+
+#WEBADMIN {
+	position: absolute;
+	margin: 60px 0 0 158px;
+}
+
+
+/* EMCEE */
+#PDemcee {display: none;}
+
+.PDemcee1 {margin: -100px 0 0 0;}
+.PDemcee2 {margin: -174px 0 0 160px;}
+.PDemcee3 {margin: -80px 0 0 320px;}
+.PDemcee4 {margin: -90px 0 0 160px;}
+.PDemcee5 {margin: -80px 0 0 320px;}
+.PDemcee6 {margin: -90px 0 0 160px;}
+
+#EMCEE {
+	position: absolute;
+	margin: 70px 0 0 57px;
+}
+
+
+/* MULTIMEDIA */
+#PDmultimedia {display: none;}
+
+.PDmultimedia1 {margin: -100px 0 0 0;}
+.PDmultimedia2 {margin: -174px 0 0 160px;}
+.PDmultimedia3 {margin: 0 0 0 320px;}
+.PDmultimedia4 {margin: -100px 0 0 160px;}
+
+#MULTIMEDIA {
+	position: absolute;
+	margin: 65px 0 0 22px;
+}
+
+
+/**********************************************************/
+
+/* LINES FROM VPD PUBLIC TO DEPARTMENT */
+
+.hVPDpublic1 {width: 140px; margin: -1417px 0 0 333px;}
+.vVPDpublic1 {height: 300px; margin: -1642px 0 0 473px; float: right;}
+.hVPDpublic2 {width: 50px; margin: -1642px 0 0 473px;}
+.hVPDpublic3 {width: 50px; margin: -1492px 0 0 473px;}
+.hVPDpublic4 {width: 50px; margin: -1342px 0 0 473px;}
+#VPDpublic_line {display: ;}
+
+#arrow2 {margin: -1437px 0 0 -165px; display: none;}
+
+.hVPDpublic1e {width: 140px; margin: -1417px 0 0 333px;}
+.vVPDpublic1e {height: 1585px; margin: -1642px 0 0 473px; float: right;}
+.hVPDpublic2e {width: 50px; margin: -1642px 0 0 473px;}
+.hVPDpublic3e {width: 50px; margin: -992px 0 0 473px;}
+.hVPDpublic4e {width: 50px; margin: -57px 0 0 473px;}
+#VPDpublic_line_expand {display: none;}
+
+
+/* DEPARTMENTS UNDER VPDA (PUBLIC) */
+
+#departmentB1 {margin-top: -1657px;}
+
+#departmentB1, #departmentB2, #departmentB3 {
+	margin-bottom: 115px;
+	display: ;
+}
+
+#arrowdown2 {
+	margin: -1660px 0 0 450px;
+	display: ;
+}
+
+
+/* SPONSORSHIP */
+#VPDpublic_sponsorship {display: none;}
+
+.VPDpublic_sponsorship1 {margin: -100px 0 0 0;}
+.VPDpublic_sponsorship2 {margin: -174px 0 0 160px;}
+.VPDpublic_sponsorship3 {margin: 0 0 0 320px;}
+.VPDpublic_sponsorship4 {margin: -100px 0 0 160px;}
+.VPDpublic_sponsorship5 {margin: -80px 0 0 320px;}
+.VPDpublic_sponsorship6 {margin: -90px 0 0 160px;}
+
+#SPONSORSHIP {
+	position: absolute;
+	margin: 50px 0 0 152px;
+}
+
+
+/* PUBLIC RELATION */
+#VPDpublic_publicRelation {display: none;}
+
+.VPDpublic_publicRelation1 {margin: -100px 0 0 0;}
+.VPDpublic_publicRelation2 {margin: -174px 0 0 160px;}
+.VPDpublic_publicRelation3 {margin: -174px 0 0 320px;}
+.VPDpublic_publicRelation4 {margin: 0 0 0 320px;}
+.VPDpublic_publicRelation5 {margin: -100px 0 0 160px;}
+.VPDpublic_publicRelation6 {margin: -80px 0 0 320px;}
+.VPDpublic_publicRelation7 {margin: -90px 0 0 160px;}
+.VPDpublic_publicRelation8 {margin: -80px 0 0 320px;}
+.VPDpublic_publicRelation9 {margin: -90px 0 0 160px;}
+.VPDpublic_publicRelation10 {margin: -80px 0 0 320px;}
+
+#PUBLICRELATION {
+	position: absolute;
+	margin: 45px 0 0 82px;
+}
+
+
+/* PUBLICITY */
+#VPDpublic_publicity {display: none;}
+
+.VPDpublic_publicity1 {margin: -100px 0 0 0;}
+.VPDpublic_publicity2 {margin: -174px 0 0 160px;}
+.VPDpublic_publicity3 {margin: 0 0 0 320px;}
+.VPDpublic_publicity4 {margin: -100px 0 0 160px;}
+.VPDpublic_publicity5 {margin: -80px 0 0 320px;}
+.VPDpublic_publicity6 {margin: -90px 0 0 160px;}
+.VPDpublic_publicity7 {margin: -80px 0 0 320px;}
+.VPDpublic_publicity8 {margin: -90px 0 0 160px;}
+.VPDpublic_publicity9 {margin: -80px 0 0 320px;}
+.VPDpublic_publicity10 {margin: -90px 0 0 160px;}
+.VPDpublic_publicity11 {margin: -80px 0 0 320px;}
+.VPDpublic_publicity12 {margin: -90px 0 0 160px;}
+
+#PUBLICITY {
+	position: absolute;
+	margin: -1092px 0 0 154px;
+}
+
+
+/**********************************************************/
+
+/* LINES FROM VPD EXHIBITION TO DEPARTMENT */
+
+.hVPDexhibition1 {width: 140px; margin: -1240px 0 0 333px;}
+.vVPDexhibition1 {height: 450px; margin: -1542px 0 0 473px; float: right;}
+.hVPDexhibition2 {width: 50px; margin: -1542px 0 0 473px;}
+.hVPDexhibition3 {width: 50px; margin: -1392px 0 0 473px;}
+.hVPDexhibition4 {width: 50px; margin: -1242px 0 0 473px;}
+.hVPDexhibition5 {width: 50px; margin: -1092px 0 0 473px;}
+#VPDexhibition_line {display: none;}
+
+#arrow3 {margin: -1260px 0 0 -165px;}
+
+.hVPDexhibition1e {width: 140px; margin: -1240px 0 0 333px;}
+.vVPDexhibition1e {height: 2528px; margin: -1542px 0 0 473px; position:absolute;}
+.hVPDexhibition2e {width: 50px; margin: -1542px 0 0 473px;}
+.hVPDexhibition3e {width: 50px; margin: -427px 0 0 473px;}
+.hVPDexhibition4e {width: 50px; margin: 142px 0 0 473px;}
+.hVPDexhibition5e {width: 50px; margin: 842px 0 0 473px;}
+#VPDexhibition_line_expand {display: none;}
+
+
+/* DEPARTMENTS UNDER VPDB (EXHIBITION) */
+
+#departmentC1 {margin-top: -1557px;}
+
+#departmentC1, #departmentC2, #departmentC3, #departmentC4 {
+	margin-bottom: 115px;
+	display: none;
+}
+
+#arrowdown3 {
+	margin: -1560px 0 0 450px;
+	display: none;
+}
+
+
+/* DECO n DESIGN */
+#VPDexhibition_dnd {display: none;}
+
+.VPDexhibition_dnd1 {margin: -100px 0 0 0;}
+.VPDexhibition_dnd2 {margin: -174px 0 0 160px;}
+.VPDexhibition_dnd3 {margin: 0 0 0 320px;}
+.VPDexhibition_dnd4 {margin: -100px 0 0 160px;}
+.VPDexhibition_dnd5 {margin: -80px 0 0 320px;}
+.VPDexhibition_dnd6 {margin: -90px 0 0 160px;}
+.VPDexhibition_dnd7 {margin: -80px 0 0 320px;}
+.VPDexhibition_dnd8 {margin: -90px 0 0 160px;}
+.VPDexhibition_dnd9 {margin: -80px 0 0 320px;}
+.VPDexhibition_dnd10 {margin: -90px 0 0 160px;}
+.VPDexhibition_dnd11 {margin: -80px 0 0 320px;}
+
+#DECODESIGN {
+	position: absolute;
+	margin: 60px 0 0 152px;
+}
+
+
+/* GAMES */
+#VPDexhibition_games {display: none;}
+
+.VPDexhibition_games1 {margin: -100px 0 0 0;}
+.VPDexhibition_games2 {margin: -174px 0 0 160px;}
+.VPDexhibition_games3 {margin: 0 0 0 320px;}
+.VPDexhibition_games4 {margin: -100px 0 0 160px;}
+.VPDexhibition_games5 {margin: -80px 0 0 320px;}
+
+#GAMESCOMPETITION {
+	position: absolute;
+	margin: 60px 0 0 23px;;
+}
+
+
+/* CARNIVAL n EXHIBITION */
+#VPDexhibition_carnival {display: none;}
+
+.VPDexhibition_carnival1 {margin: -100px 0 0 0;}
+.VPDexhibition_carnival2 {margin: -174px 0 0 160px;}
+.VPDexhibition_carnival3 {margin: 0 0 0 320px;}
+.VPDexhibition_carnival4 {margin: -100px 0 0 160px;}
+.VPDexhibition_carnival5 {margin: -80px 0 0 320px;}
+.VPDexhibition_carnival6 {margin: -90px 0 0 160px;}
+.VPDexhibition_carnival7 {margin: -80px 0 0 320px;}
+.VPDexhibition_carnival8 {margin: -90px 0 0 160px;}
+
+#CARNIVALEXHIBITION {
+	position: absolute;
+	margin: -734px 0 0 -108px; /*78*/
+}
+
+
+/* TICKETING */
+#VPDexhibition_ticket {display: none;}
+
+.VPDexhibition_ticket1 {margin: -100px 0 0 0;}
+.VPDexhibition_ticket2 {margin: -174px 0 0 160px;}
+.VPDexhibition_ticket3 {margin: -174px 0 0 320px;}
+.VPDexhibition_ticket4 {margin: 0 0 0 320px;}
+.VPDexhibition_ticket5 {margin: -100px 0 0 160px;}
+.VPDexhibition_ticket6 {margin: -80px 0 0 320px;}
+
+#TICKET {
+	position: absolute;
+	margin: -370px 0 0 155px;
+}
+
+
+
+/**********************************************************/
+
+/* LINES FROM VPD EVENT TO DEPARTMENT */
+
+.hVPDevent1 {width: 140px; margin: -1063px 0 0 333px;}
+.vVPDevent1 {height: 450px; margin: -1442px 0 0 473px; float: right;}
+.hVPDevent2 {width: 50px; margin: -1442px 0 0 473px;}
+.hVPDevent3 {width: 50px; margin: -1292px 0 0 473px;}
+.hVPDevent4 {width: 50px; margin: -1142px 0 0 473px;}
+.hVPDevent5 {width: 50px; margin: -992px 0 0 473px;}
+#VPDevent_line {display: none;}
+
+#arrow4 {margin: -1083px 0 0 -165px;}
+
+.hVPDevent1e {width: 140px; margin: -1063px 0 0 333px;}
+.vVPDevent1e {height: 2927px; margin: -1442px 0 0 473px; position: absolute;}
+.hVPDevent2e {width: 50px; margin: -1442px 0 0 473px;}
+.hVPDevent3e {width: 50px; margin: -125px 0 0 473px;}
+.hVPDevent4e {width: 50px; margin: 617px 0 0 473px;}
+.hVPDevent5e {width: 50px; margin: 865px 0 0 473px;}
+#VPDevent_line_expand {display: none;}
+
+/* DEPARTMENTS UNDER VPDC (EVENT) */
+
+#departmentD1 {margin-top: -1457px;}
+
+#departmentD1, #departmentD2, #departmentD3, #departmentD4 {
+	margin-bottom: 115px;
+	display: none;
+}
+
+#arrowdown4 {
+	margin: -1460px 0 0 450px;
+	display: none;
+}
+
+
+/* EVENT */
+#VPDevent_event {display: none;}
+
+.VPDevent_event1 {margin: -100px 0 0 0;}
+.VPDevent_event2 {margin: -190px 0 0 160px;}
+.VPDevent_event3 {margin: -170px 0 0 320px;}
+.VPDevent_event4 {margin: 0 0 0 320px;}
+.VPDevent_event5 {margin: -100px 0 0 160px;}
+.VPDevent_event6 {margin: -80px 0 0 320px;}
+.VPDevent_event7 {margin: -90px 0 0 160px;}
+.VPDevent_event8 {margin: -80px 0 0 320px;}
+.VPDevent_event9 {margin: -90px 0 0 160px;}
+.VPDevent_event10 {margin: -80px 0 0 320px;}
+.VPDevent_event11 {margin: -90px 0 0 160px;}
+.VPDevent_event12 {margin: -80px 0 0 320px;}
+.VPDevent_event13 {margin: -90px 0 0 160px;}
+.VPDevent_event14 {margin: -80px 0 0 320px;}
+
+#EVENT {
+	position: absolute;
+	margin: 65px 0 0 45px;
+}
+
+
+/* PROTOCOL n SECRETARIAT */
+#VPDevent_pns {display: none;}
+
+.VPDevent_pns1 {margin: -100px 0 0 0;}
+.VPDevent_pns2 {margin: -174px 0 0 160px;}
+.VPDevent_pns3 {margin: 0 0 0 320px;}
+.VPDevent_pns4 {margin: -100px 0 0 160px;}
+.VPDevent_pns5 {margin: -80px 0 0 320px;}
+.VPDevent_pns6 {margin: -90px 0 0 160px;}
+.VPDevent_pns7 {margin: -80px 0 0 320px;}
+.VPDevent_pns8 {margin: -90px 0 0 160px;}
+.VPDevent_pns9 {margin: -80px 0 0 320px;}
+
+#PROTOCOLSECRETARIAT {
+	position: absolute;
+	margin: 35px 0 0 150px;
+}
+
+
+
+/* HALL */
+#VPDevent_hall {display: none;}
+
+.VPDevent_hall1 {margin: -100px 0 0 0;}
+.VPDevent_hall2 {margin: -174px 0 0 160px;}
+.VPDevent_hall3 {margin: -170px 0 0 320px;}
+.VPDevent_hall4 {margin: 0 0 0 320px;}
+.VPDevent_hall5 {margin: -100px 0 0 160px;}
+.VPDevent_hall6 {margin: -80px 0 0 320px;}
+.VPDevent_hall7 {margin: -90px 0 0 160px;}
+.VPDevent_hall8 {margin: -80px 0 0 320px;}
+.VPDevent_hall9 {margin: -90px 0 0 160px;}
+
+#HALL {
+	position: absolute;
+	margin: -755px 0 0 -113px;
+}
+
+
+/* LOGISTIC */
+#VPDevent_logistic {display: none;}
+
+.VPDevent_logistic1 {margin: -100px 0 0 0;}
+.VPDevent_logistic2 {margin: -174px 0 0 160px;}
+.VPDevent_logistic3 {margin: 0 0 0 320px;}
+.VPDevent_logistic4 {margin: -100px 0 0 160px;}
+.VPDevent_logistic5 {margin: -80px 0 0 320px;}
+.VPDevent_logistic6 {margin: -100px 0 0 160px;}
+
+#LOGISTIC {
+	position: absolute;
+	margin: 46px 0 0 154px;
+}
+
+
+/*THE END*/

@@ -1,0 +1,327 @@
+
+/*************** JF MAIN CSS FILE CONTENT ***************/
+
+/*
+
+NAVIGATION BAR 									LINE 19
+MAIN PAGE 										LINE 70
+SOCIAL NETWORK LOGO (MAIN PAGE only)			LINE 88
+PAGE TITLE (except MAIN PAGE)					LINE 107
+ABOUT PAGE 										LINE 122
+SCHEDULE PAGE 									LINE 150
+VENUE PAGE 										LINE 196
+SPONSOR PAGE 									LINE --
+CONTACT US PAGE 								LINE 285
+
+*/
+
+
+/*************** NAVIGATION BAR ***************/
+nav {
+	background-color: #FCC8C8;
+	margin-top: -20px;
+}
+
+#HaruLogo {
+	width: 100px;
+	height: 100px;
+	display: inline;
+	margin: 5px 0 5px 0;
+	opacity: 0.75;
+}
+
+#HaruLogo:hover {
+	opacity: 1;
+}
+
+nav ul li {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0 10px 0 10px;
+	padding: 5px;
+}
+
+#Navigate, .current {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.375em;
+	font-weight: bold;
+	margin: 5px;
+	padding: 10px;
+}
+
+#Navigate {
+	color: black;
+}
+
+.current {
+	color: #AE0000;
+	background-color: #E3B1B0;
+}
+
+#Navigate:hover, .current:hover {
+	color: #830000;
+	background-color: #E3B1B0;
+	border: 2px solid #D58A88;
+	border-radius: 5px;
+}
+
+
+/*************** MAIN PAGE ***************/
+#mainpagetitle {
+	text-align: center;
+}
+
+#mainpagetitle h2 {
+	font-family: 'PT Serif Caption', serif;
+	font-size: 1.55em;
+	margin: 50px 0 -30px 0;
+}
+
+#mainpagetitle h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.75em;
+	color: #AE0000;
+}
+
+
+/*************** SOCIAL NETWORK LOGO (MAIN PAGE only) ***************/
+footer a img {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	opacity: 0.75;
+}
+
+footer a img:hover {
+	opacity: 1;
+}
+
+footer {
+	position: initial;
+	width: 75px;
+	margin: -160px 0 20px 93.5%;
+}
+
+
+/*************** PAGE TITLE (except MAIN PAGE) ***************/
+#title {
+	font-family: 'PT Serif Caption', serif;
+	font-weight: bolder;
+	text-align: center;
+	width: 600px;
+	margin: 50px auto 50px auto;
+	padding: auto;
+	font-size: 3em;
+	color: white;
+	background-image: url("../assets/transparentdarkred.png");
+	border-radius: 10px;
+}
+
+
+/*************** ABOUT PAGE ***************/
+#About {
+	width: 1000px;
+	background-image: url("../assets/transparentwhite.png");
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+
+#About p, #Aboutobjective {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.375em;
+	margin: 25px;
+}
+
+#About img {
+	margin: 0 20px 0 20px;
+	display: inline-block;
+}
+
+#Abouttext {
+	width: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/*************** SCHEDULE PAGE ***************/
+#schedule_tree {
+	width: 1100px;
+	position: initial;
+	margin: -50px 0 50px 0;
+}
+
+#schedule_ring {
+	z-index: 1;
+	position: absolute;
+}
+
+.s1, .s2, .s3 {height: 175px;}
+.s1:hover, .s2:hover, .s3:hover {opacity: 0.7; cursor: pointer;}
+
+.s1 {margin: 255px 0 0 -880px;}
+.s2 {margin: 188px 0 0 -590px;}
+.s3 {margin: 280px 0 0 -260px;}
+
+#Act1, #Act2, #Act3 {
+	width: 1000px;
+	height: 500px;
+	background-image: url("../assets/oldpaperbymohammad.png");
+	background-size: 100% 100%;
+	margin: auto;
+	margin-top: -80px;
+	margin-bottom: 50px;
+	display: none;
+}
+
+#Act1 h1, #Act2 h1, #Act3 h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#Act1 h1, #Act2 h1 {color: black; padding: 150px 0 0 0;}
+#Act3 h1 {color: #C40000; padding-top: 40px;}
+
+.jfnight {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	margin: auto;
+}
+
+
+/*************** VENUE PAGE ***************/
+
+.content1{
+	border: 1px solid #666666;
+	width:1120px;
+	height:550px; 
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 50px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255,255,255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.6);
+	/* For IE 5.5 - 7*/
+	filter :progid: DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.label {
+	color:#282828;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	white-space: pre-wrap;
+}
+
+/* Imagery */
+.image{
+	overflow:visible
+}
+
+.image img {
+	margin-top:280px;
+	margin-left:20px;
+	behavior:url(-ms-transform.htc);
+	/*Firefox*/
+	-moz-transform: rotate(-15deg);
+	/*Safari and Chrome*/
+	-webkit-transform:rotate(-15deg);
+	/*Opera*/
+	-o-transform:rotate(-15deg);
+	/*IE9*/
+	-ms-transform:rotate(-15deg);
+	/*IE6,IE7*/
+	filter:
+	progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+	M11=0.96592583,
+	M12=0.25881905,
+	M21=-0.25881905,
+	M22=0.96592583);
+	/*IE8*/
+	-ms-filter:
+	"progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand',
+	M11=0.96592583,
+	M12=0.25881905,
+	M21=-0.25881905,
+	M22=0.96592583)";
+}
+
+.image2 img {
+	margin-top:270px;
+	margin-left:20px;
+	behavior:url(-ms-transform.htc);
+	/*Firefox*/
+	-moz-transform: rotate(-15deg);
+	/*Safari and Chrome*/
+	-webkit-transform:rotate(-15deg);
+	/*Opera*/
+	-o-transform:rotate(-15deg);
+	/*IE9*/
+	-ms-transform:rotate(-15deg);
+	/*IE6,IE7*/
+	filter:
+	progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+	M11=0.96592583,
+	M12=0.25881905,
+	M21=-0.25881905,
+	M22=0.96592583);
+	/*IE8*/
+	-ms-filter:
+	"progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand',
+	M11=0.96592583,
+	M12=0.25881905,
+	M21=-0.25881905,
+	M22=0.96592583)";
+}
+
+
+/*************** CONTACT US PAGE ***************/
+#contactUs {
+	width: 1000px;
+	background-image: url("../assets/transparentwhite.png");
+	border: 1px solid black;
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+
+#contactUs h2 {
+	font-family: 'PT Serif Caption', serif;
+	text-align: center;
+	font-size: 150%;
+	color: #AE0000;
+}
+
+fieldset {
+	width: 700px;
+	font-weight: bold;
+	font-family: 'PT Serif Caption', serif;
+	background-color: white;
+	border: 1px solid black;
+	margin: auto;
+	padding: 20px;
+}
+
+.required {color: red;}
+
+#submit {
+	width: 200px;
+	height: 30px;
+	color: black;
+	background-color: #FFFF1C;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 20px 0 0 400px;
+	padding: 2.5px;
+
+}
+
+#submit:hover {background-color: #FFFF8C;}
