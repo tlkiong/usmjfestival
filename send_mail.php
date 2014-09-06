@@ -31,18 +31,18 @@
 
 	// If the user tries to access this script directly, redirect them to the feedback form,
 	if (!isset($from)) {
-	header( Location: $feedback_page );
+	header( "Location: $feedback_page" );
 	}
 
 	// If the form fields are empty, redirect to the error page.
 	elseif (empty($from_email_address) || empty($from_contact_number) || empty(from_contact_number) || empty(message)) {
-	header( Location: $error_page );
+	header( "Location: $error_page" );
 	}
 
 	// If we passed all previous tests, send the email then redirect to the thank you page.
 	else {
 	mail( $to, $email_subject, $email_body, $from_email_address );
 
-	header( Location: $thankyou_page );
+	header( "Location: $thankyou_page" );
 	}
 ?>
