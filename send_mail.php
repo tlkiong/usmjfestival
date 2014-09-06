@@ -18,11 +18,11 @@
 	If you add a form field, you will need to add it here.
 	*/
 	$email_subject = "Message from usmjapanfestival.herokuapp.com website"
-	$from_email_address = $_REQUEST['email_address'] ;
-	$from_contact_number = $_REQUEST['contact_number']
+	$from_email_address = $_REQUEST['sender_email_address'] ;
+	$from_contact_number = $_REQUEST['sender_contact_number']
 	$from_sender_name = $_REQUEST['sender_name']
 
-	$message = $_REQUEST['message'] ;
+	$message = $_REQUEST['sender_message'] ;
 	$email_body = "From:\n".
 				  "		Name          : $from_sender_name\n".
 				  "		Contact Number: $from_contact_number\n".
