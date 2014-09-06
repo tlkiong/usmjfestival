@@ -29,7 +29,7 @@
 	       setText($email_body)->
 
 	       addHeader('X-Sent-Using', 'SendGrid-API')->
-	       addHeader('X-Transport', 'web')->
+	       addHeader('X-Transport', 'web');
 
 	$response = $sendgrid->send($email);
 	var_dump($response);
