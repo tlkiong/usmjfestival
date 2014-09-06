@@ -1,1 +1,4 @@
-<?php include_once("jfmainpage.html"); ?>
+<?php
+	require 'vendor/autoload.php';
+	include_once("jfmainpage.html"); 
+ ?>
