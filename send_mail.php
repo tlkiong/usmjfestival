@@ -16,9 +16,9 @@
 	$to                = 'usmjfestival@gmail.com';
 	$email_subject = "Message from usmjapanfestival.herokuapp.com website by ".$senders_name;
 	$email_body = "From:<br>".
-				  "		Name          : ".$from_sender_name."<br>".
-				  "		Contact Number: ".$from_contact_number."<br>".
-				  "		Message: ".$message;
+				  "		Name          : ".$sender_name."<br>".
+				  "		Contact Number: ".$senders_contact_number."<br>".
+				  "		Message: ".$senders_message;
 
 	$sendgrid = new SendGrid($sendgrid_username, $sendgrid_password, array("turn_off_ssl_verification" => true));
 	$email    = new SendGrid\Email();
@@ -28,7 +28,6 @@
 	       setHtml($email_body);
 
 	$response = $sendgrid->send($email);
-	var_dump($response);
-	var_dump($sendgrid_username);
-	var_dump($sendgrid_password);
+	//var_dump($response);
+	header("jfcontactus.html");
 ?>
