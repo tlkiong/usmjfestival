@@ -14,7 +14,7 @@
 	$sendgrid_username = 'app29290012@heroku.com';
 	$sendgrid_password = 'USMJapanFestival';
 	$to                = 'usmjfestival@gmail.com';
-	$email_subject = "Message from usmjapanfestival.herokuapp.com website";
+	$email_subject = "Message from usmjapanfestival.herokuapp.com website by".$senders_name;
 	$email_body = "From:\n".
 				  "		Name          : $from_sender_name\n".
 				  "		Contact Number: $from_contact_number\n".
