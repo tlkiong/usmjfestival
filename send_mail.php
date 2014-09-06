@@ -18,7 +18,7 @@ This next bit loads the form field data into variables.
 If you add a form field, you will need to add it here.
 */
 $email_address = $_REQUEST['email_address'] ;
-$comments = $_REQUEST['comments'] ;
+$comments = $_REQUEST['message'] ;
 
 /*
 The following function checks for email injection.
@@ -54,9 +54,9 @@ header( "Location: $error_page" );
 }
 
 // If email injection is detected, redirect to the error page.
-elseif ( isInjected($email_address) ) {
-header( "Location: $error_page" );
-}
+//elseif ( isInjected($email_address) ) {
+//header( "Location: $error_page" );
+//}
 
 // If we passed all previous tests, send the email then redirect to the thank you page.
 else {
