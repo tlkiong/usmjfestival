@@ -14,11 +14,11 @@
 	$sendgrid_username = 'app29290012@heroku.com';
 	$sendgrid_password = 'USMJapanFestival';
 	$to                = 'usmjfestival@gmail.com';
-	$email_subject = "Message from usmjapanfestival.herokuapp.com website by".$senders_name;
+	$email_subject = "Message from usmjapanfestival.herokuapp.com website by ".$senders_name;
 	$email_body = "From:\n".
-				  "		Name          : $from_sender_name\n".
-				  "		Contact Number: $from_contact_number\n".
-				  "		Message: $message";
+				  "		Name          : ".$from_sender_name."\n".
+				  "		Contact Number: ".$from_contact_number."\n".
+				  "		Message: ".$message;
 
 	$sendgrid = new SendGrid($sendgrid_username, $sendgrid_password, array("turn_off_ssl_verification" => true));
 	$email    = new SendGrid\Email();
