@@ -18,7 +18,7 @@
 	$email_body = "From:<br>".
 				  "&nbsp;&nbsp;&nbsp;&nbsp;Name          : ".$senders_name."<br>".
 				  "&nbsp;&nbsp;&nbsp;&nbsp;Contact Number: ".$senders_contact_number."<br>".
-				  "&nbsp;&nbsp;&nbsp;&nbsp;Message: <p>".$senders_message;
+				  "&nbsp;&nbsp;&nbsp;&nbsp;Message: ".$senders_message;
 
 	$sendgrid = new SendGrid($sendgrid_username, $sendgrid_password, array("turn_off_ssl_verification" => true));
 	$email    = new SendGrid\Email();
