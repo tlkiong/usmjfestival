@@ -1,5 +1,13 @@
 {
-  "require": {
-    "sendgrid/sendgrid": "2.0.5"
-  }
+    "name": "kiong/usmjfestival",
+    "description": "USM Japan Festival website",
+    "authors": [
+        {
+            "name": "kiong",
+            "email": "kiong90@gmail.com"
+        }
+    ],
+    "require": {
+    	"sendgrid/sendgrid": "2.0.5"
+    }
 }
