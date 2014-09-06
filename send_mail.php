@@ -29,5 +29,5 @@
 
 	$response = $sendgrid->send($email);
 	//var_dump($response);
-	header("jfcontactus.html");
+	header("Location: jfcontactus.html");
 ?>
