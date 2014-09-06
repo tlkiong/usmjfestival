@@ -23,7 +23,7 @@
 	$sendgrid = new SendGrid($sendgrid_username, $sendgrid_password, array("turn_off_ssl_verification" => true));
 	$email    = new SendGrid\Email();
 	$email->addTo($to)->
-	       setFrom($to)->
+	       setFrom($senders_email_address)->
 	       setSubject($email_subject)->
 	       setHtml($email_body);
 
