@@ -32,4 +32,6 @@
 
 	$response = $sendgrid->send($email);
 	var_dump($response);
+	var_dump($sendgrid_username);
+	var_dump($sendgrid_password);
 ?>
