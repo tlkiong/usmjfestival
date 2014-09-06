@@ -1,3 +1,20 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "usmjfestival@gmail.com"; // this is your Email address
+    $from = $_POST['sender_email_address']; // this is the sender's Email address
+    $senders_name = $_POST['sender_name'];
+    $senders_contact_number = $_POST['sender_contact_number'];
+    $subject = "Form submission";
+    $message = $senders_name . " wrote the following:" . "\n\n" . $_POST['sender_message'];
+
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $senders_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
 <!DOCTYPE html>
 <meta charset="utf-8">
 
@@ -36,7 +53,7 @@
 		</header>
 		
 		<section>
-			<form action="send_mail.php" method="post">
+			<form action="" method="post">
 				<div id="contactUs">
 					<h2>Leave Your Details Here!</h2>
 					<div id="form">
@@ -45,13 +62,13 @@
 							<input type="text" name="sender_name" id="Name" required><br><br>
 
 							<label for="Email Address">Email Address:<span class="required">*</span><br></label>
-							<input type="text" name="email_address" id="Email Address" required><br><br>
+							<input type="text" name="sender_email_address" id="Email Address" required><br><br>
 
 							<label for="Contact Number">Contact Number:<span class="required">*</span><br></label>
-							<input type="text" name="contact_number" id="Contact Number" required><br><br>
+							<input type="text" name="sender_contact_number" id="Contact Number" required><br><br>
 
 							<label for="Message">Message/Question:<span class="required">*</span></label><br>
-							<textarea name="message" rows="9" cols="95" id="Message" required></textarea><br><br>
+							<textarea name="sender_message" rows="9" cols="95" id="Message" required></textarea><br><br>
 						</fieldset>
 					</div>
 					<input id="submit" type="submit" value="Submit"><br>
