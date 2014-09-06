@@ -29,8 +29,30 @@
 				  "		Message: $message";
 
 
+// If the user tries to access this script directly, redirect them to the feedback form,
+if (!isset($_REQUEST['email_address'])) {
+header( "Location: $feedback_page" );
+}
+
+// If the form fields are empty, redirect to the error page.
+elseif (empty($email_address) || empty($comments)) {
+header( "Location: $error_page" );
+}
+
+// If email injection is detected, redirect to the error page.
+elseif ( isInjected($email_address) ) {
+header( "Location: $error_page" );
+}
+
+// If we passed all previous tests, send the email then redirect to the thank you page.
+else {
+mail( "$webmaster_email", "Feedback Form Results",
+  $comments, "From: $email_address" );
+header( "Location: $thankyou_page" );
+}
+
 	// If the user tries to access this script directly, redirect them to the feedback form,
-	if (!isset($from_email_address)) {
+	/*if (!isset($from_email_address)) {
 	header( "Location: $feedback_page" );
 	}
 
@@ -44,5 +66,5 @@
 	mail( $to, $email_subject, $email_body, $from_email_address );
 
 	header( "Location: $thankyou_page" );
-	}
+	}*/
 ?>
