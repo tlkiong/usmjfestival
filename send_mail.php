@@ -23,10 +23,10 @@
 	$from_sender_name = $_REQUEST['sender_name']
 
 	$message = $_REQUEST['message'] ;
-	$from_who = "From:\n"
-	$from_name    = "	Name         :".$from_sender_name."\n";
-	$from_contact = "	Contact Number:".$from_contact_number."\n";
-	$email_body = $from_who.$from_name.$from_contact.$message;
+	$email_body = "From:\n".
+				  "		Name          : $from_sender_name\n".
+				  "		Contact Number: $from_contact_number\n".
+				  "		Message: $message";
 
 
 	// If the user tries to access this script directly, redirect them to the feedback form,
@@ -35,7 +35,7 @@
 	}
 
 	// If the form fields are empty, redirect to the error page.
-	elseif (empty($from_email_address) || empty($from_contact_number) || empty(from_contact_number) || empty(message)) {
+	elseif (empty($from_email_address) || empty($from_contact_number) || empty($from_sender_name) || empty($message)) {
 	header( "Location: $error_page" );
 	}
 
