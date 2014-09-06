@@ -30,7 +30,7 @@
 
 
 	// If the user tries to access this script directly, redirect them to the feedback form,
-	if (!isset($from)) {
+	if (!isset($from_email_address)) {
 	header( "Location: $feedback_page" );
 	}
 
