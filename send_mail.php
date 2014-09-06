@@ -35,13 +35,13 @@
 	}
 
 	// If the form fields are empty, redirect to the error page.
-	elseif (empty("$from_email_address") || empty("$from_contact_number") || empty("$from_sender_name") || empty("$message")) {
+	elseif (empty($from_email_address) || empty($from_contact_number) || empty($from_sender_name) || empty($message)) {
 	header( "Location: $error_page" );
 	}
 
 	// If we passed all previous tests, send the email then redirect to the thank you page.
 	else {
-	mail( "$to", "$email_subject", "$email_body", "$from_email_address" );
+	mail( $to, $email_subject, $email_body, $from_email_address );
 
 	header( "Location: $thankyou_page" );
 	}
