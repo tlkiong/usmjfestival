@@ -17,7 +17,7 @@
 	This next bit loads the form field data into variables.
 	If you add a form field, you will need to add it here.
 	*/
-	$email_subject = "Message from usmjapanfestival.herokuapp.com website"
+	$email_subject = "Message from usmjapanfestival.herokuapp.com website";
 	$from_email_address = $_REQUEST['sender_email_address'] ;
 	$from_contact_number = $_REQUEST['sender_contact_number'];
 	$from_sender_name = $_REQUEST['sender_name'];
