@@ -16,7 +16,7 @@
 	$to                = 'usmjfestival@gmail.com';
 	$email_subject = "Message from usmjapanfestival.herokuapp.com website by ".$senders_name;
 	$email_body = "From:<br>".
-				  "		Name          : ".$sender_name."<br>".
+				  "		Name          : ".$senders_name."<br>".
 				  "		Contact Number: ".$senders_contact_number."<br>".
 				  "		Message: ".$senders_message;
 
