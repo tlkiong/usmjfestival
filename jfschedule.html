@@ -39,49 +39,15 @@
 		<section>
 			<div id="Schedule">
 				<img id="schedule_tree" src="assets/scheduletree.png">
-				<img onclick="Date1()" id="schedule_ring" class="s1" src="assets/schedule1.png">
-				<img onclick="Date2()" id="schedule_ring" class="s2" src="assets/schedule2.png">
-				<img onclick="Date3()" id="schedule_ring" class="s3" src="assets/schedule3.png">
+				<a href="#" onclick="ScrolltoDate1(); return false;"><img id="schedule_ring" class="s1" src="assets/schedule1.png"></a>
+				<a href="#" onclick="ScrolltoDate2(); return false;"><img id="schedule_ring" class="s2" src="assets/schedule2.png"></a>
 			</div>
 
-			<script>
-			function Date1() {
-			    document.getElementById('Act1').style.display = "block";
-				if(document.getElementById('Act2').style.display == 'block')
-					{document.getElementById('Act2').style.display = 'none'}
-				if(document.getElementById('Act3').style.display == 'block')
-					{document.getElementById('Act3').style.display = 'none'}
-				return false;				
-			}
+			<div id="Date1"><h1>1st - 3rd OCTOBER 2014<br><br>Traditional Exhibition</h1></div>
+			<div id="Date2"><h1>4th - 5th OCTOBER 2014<br><br>Anime and Model Exhibition</h1></div>
 
-			function Date2() {
-			    document.getElementById('Act2').style.display = "block";
-				if(document.getElementById('Act1').style.display == 'block')
-					{document.getElementById('Act1').style.display = 'none'}
-				if(document.getElementById('Act3').style.display == 'block')
-					{document.getElementById('Act3').style.display = 'none'}
-				return false;
-			}
-
-			function Date3() {
-			    document.getElementById('Act3').style.display = "block";
-				if(document.getElementById('Act1').style.display == 'block')
-					{document.getElementById('Act1').style.display = 'none'}
-				if(document.getElementById('Act2').style.display == 'block')
-					{document.getElementById('Act2').style.display = 'none'}
-				return false;	
-			}
-			
-			</script>
-
-			<div id="Act1">
-				<h1>1st - 3rd OCTOBER 2014<br><br>Traditional Exhibition</h1>
-			</div>
-			<div id="Act2">
-				<h1>4th - 5th OCTOBER 2014<br><br>Anime and Model Exhibition</h1>
-			</div>
-			<div id="Act3">
-				<h1>JAPAN FESTIVAL NIGHT</h1>
+			<!--
+			<div id="Date3"><h1>JAPAN FESTIVAL NIGHT</h1>
 				<table class="jfnight" style="width:900px">
 					<tr>
 						<td>6:30 pm - 7:00 pm</td>
@@ -169,6 +135,52 @@
 					</tr>
 				</table>
 			</div>
+
+			-->
+
+			<script>
+
+			var scrollY = 0;
+			var distance = 50;
+			var speed = 24;
+			function autoScrollTo(el) {
+				var currentY = window.pageYOffset;
+				var targetY = document.getElementById(el).offsetTop;
+				var bodyHeight = document.body.offsetHeight;
+				var yPos = currentY + window.innerHeight;
+				var animator = setTimeout('autoScrollTo(\''+el+'\')',24);
+				if (yPos > bodyHeight) {clearTimeout(animator);}
+				else {
+					if(currentY < targetY-distance) {
+					   scrollY = currentY+distance;
+					   window.scroll(0, scrollY);
+					}
+				}
+			}
+
+			function ScrolltoDate1() {
+				autoScrollTo('Date1');
+			    document.getElementById('Date1').style.display = "block";
+				document.getElementById('Date2').style.display = "none";
+				return false;				
+			}
+
+			function ScrolltoDate2() {
+				autoScrollTo('Date2');
+			    document.getElementById('Date1').style.display = "none";
+				document.getElementById('Date2').style.display = "block";
+				return false;
+			}
+
+			function ScrolltoDate3() {
+				autoScrollTo('Date3');
+			    document.getElementById('Date1').style.display = "none";
+				document.getElementById('Date2').style.display = "none";
+				return false;	
+			}
+			
+			</script>
+
 		</section>
 
 		<footer>

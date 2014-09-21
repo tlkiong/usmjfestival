@@ -11,7 +11,7 @@ PD 												LINE 182
 - Web Admin
 - Emcee
 - Multimedia
-VPD PUBLIC 										LINE 264
+VPD PUBLIC 										LINE 263
 - Lines from PD to department
 - Departments under VPD Public
 - Sponsorship
@@ -24,7 +24,7 @@ VPD EXHIBITION 									LINE 358
 - Games & Competition
 - Carnival & Exhibition
 - Ticketing
-VPD EVENT 										LINE 467
+VPD EVENT 										LINE 466
 - Lines from PD to department
 - Departments under VPD Event
 - Event
@@ -200,28 +200,27 @@ VPD EVENT 										LINE 467
 
 /* DEPARTMENTS UNDER PD */
 
-#departmentA1 {margin-top: -1657px;}
+#webAdminTitle {margin-top: -1657px;}
 
-#departmentA1, #departmentA2, #departmentA3 {
+#webAdminTitle, #emceeTitle, #multimediaTitle {
 	margin-bottom: 115px;
 	display: none;
 }
 
-#arrowdown1 {
-	margin: -1660px 0 0 450px;
-	display: none;
-}
+#arrowdown1, #arrowright1 {display: none;}
+#arrowdown1 {margin: -1660px 0 0 450px;}
+#arrowright1 {margin: -1660px 0 0 950px;}
 
 
 
 /* WEB ADMIN */
-#PDwebAdmin {display: none;}
+#webAdminPhotos {display: none;}
 
-.PDwebAdmin1 {margin: -100px 0 0 0;}
-.PDwebAdmin2 {margin: -174px 0 0 160px;}
-.PDwebAdmin3 {margin: -174px 0 0 320px;}
-.PDwebAdmin4 {margin: 0 0 0 320px;}
-.PDwebAdmin5 {margin: -100px 0 0 160px;}
+.webAdmin1 {margin: -100px 0 0 0;}
+.webAdmin2 {margin: -174px 0 0 160px;}
+.webAdmin3 {margin: -174px 0 0 320px;}
+.webAdmin4 {margin: 0 0 0 320px;}
+.webAdmin5 {margin: -100px 0 0 160px;}
 
 #WEBADMIN {
 	position: absolute;
@@ -230,14 +229,14 @@ VPD EVENT 										LINE 467
 
 
 /* EMCEE */
-#PDemcee {display: none;}
+#emceePhotos {display: none;}
 
-.PDemcee1 {margin: -100px 0 0 0;}
-.PDemcee2 {margin: -174px 0 0 160px;}
-.PDemcee3 {margin: -80px 0 0 320px;}
-.PDemcee4 {margin: -90px 0 0 160px;}
-.PDemcee5 {margin: -80px 0 0 320px;}
-.PDemcee6 {margin: -90px 0 0 160px;}
+.emcee1 {margin: -100px 0 0 0;}
+.emcee2 {margin: -174px 0 0 160px;}
+.emcee3 {margin: -80px 0 0 320px;}
+.emcee4 {margin: -90px 0 0 160px;}
+.emcee5 {margin: -80px 0 0 320px;}
+.emcee6 {margin: -90px 0 0 160px;}
 
 #EMCEE {
 	position: absolute;
@@ -246,12 +245,12 @@ VPD EVENT 										LINE 467
 
 
 /* MULTIMEDIA */
-#PDmultimedia {display: none;}
+#multimediaPhotos {display: none;}
 
-.PDmultimedia1 {margin: -100px 0 0 0;}
-.PDmultimedia2 {margin: -174px 0 0 160px;}
-.PDmultimedia3 {margin: 0 0 0 320px;}
-.PDmultimedia4 {margin: -100px 0 0 160px;}
+.multimedia1 {margin: -100px 0 0 0;}
+.multimedia2 {margin: -174px 0 0 160px;}
+.multimedia3 {margin: 0 0 0 320px;}
+.multimedia4 {margin: -100px 0 0 160px;}
 
 #MULTIMEDIA {
 	position: absolute;
@@ -280,30 +279,31 @@ VPD EVENT 										LINE 467
 #VPDpublic_line_expand {display: none;}
 
 
-/* DEPARTMENTS UNDER VPDA (PUBLIC) */
+/* DEPARTMENTS UNDER VPD PUBLIC */
 
-#departmentB1 {margin-top: -1657px;}
+#sponsorshipTitle {margin-top: -1657px;}
 
-#departmentB1, #departmentB2, #departmentB3 {
+#sponsorshipTitle, #PR_Title, #publicityTitle {
 	margin-bottom: 115px;
 	display: ;
 }
 
-#arrowdown2 {
-	margin: -1660px 0 0 450px;
-	display: ;
+#arrowdown2 {margin: -1660px 0 0 450px;}
+#arrowright2 {
+	margin: -1660px 0 0 950px;
+	display: none;
 }
 
 
 /* SPONSORSHIP */
-#VPDpublic_sponsorship {display: none;}
+#sponsorshipPhotos {display: none;}
 
-.VPDpublic_sponsorship1 {margin: -100px 0 0 0;}
-.VPDpublic_sponsorship2 {margin: -174px 0 0 160px;}
-.VPDpublic_sponsorship3 {margin: 0 0 0 320px;}
-.VPDpublic_sponsorship4 {margin: -100px 0 0 160px;}
-.VPDpublic_sponsorship5 {margin: -80px 0 0 320px;}
-.VPDpublic_sponsorship6 {margin: -90px 0 0 160px;}
+.sponsorship1 {margin: -100px 0 0 0;}
+.sponsorship2 {margin: -174px 0 0 160px;}
+.sponsorship3 {margin: 0 0 0 320px;}
+.sponsorship4 {margin: -100px 0 0 160px;}
+.sponsorship5 {margin: -80px 0 0 320px;}
+.sponsorship6 {margin: -90px 0 0 160px;}
 
 #SPONSORSHIP {
 	position: absolute;
@@ -312,18 +312,18 @@ VPD EVENT 										LINE 467
 
 
 /* PUBLIC RELATION */
-#VPDpublic_publicRelation {display: none;}
+#PR_Photos {display: none;}
 
-.VPDpublic_publicRelation1 {margin: -100px 0 0 0;}
-.VPDpublic_publicRelation2 {margin: -174px 0 0 160px;}
-.VPDpublic_publicRelation3 {margin: -174px 0 0 320px;}
-.VPDpublic_publicRelation4 {margin: 0 0 0 320px;}
-.VPDpublic_publicRelation5 {margin: -100px 0 0 160px;}
-.VPDpublic_publicRelation6 {margin: -80px 0 0 320px;}
-.VPDpublic_publicRelation7 {margin: -90px 0 0 160px;}
-.VPDpublic_publicRelation8 {margin: -80px 0 0 320px;}
-.VPDpublic_publicRelation9 {margin: -90px 0 0 160px;}
-.VPDpublic_publicRelation10 {margin: -80px 0 0 320px;}
+.PR1 {margin: -100px 0 0 0;}
+.PR2 {margin: -174px 0 0 160px;}
+.PR3 {margin: -174px 0 0 320px;}
+.PR4 {margin: 0 0 0 320px;}
+.PR5 {margin: -100px 0 0 160px;}
+.PR6 {margin: -80px 0 0 320px;}
+.PR7 {margin: -90px 0 0 160px;}
+.PR8 {margin: -80px 0 0 320px;}
+.PR9 {margin: -90px 0 0 160px;}
+.PR10 {margin: -80px 0 0 320px;}
 
 #PUBLICRELATION {
 	position: absolute;
@@ -332,20 +332,20 @@ VPD EVENT 										LINE 467
 
 
 /* PUBLICITY */
-#VPDpublic_publicity {display: none;}
+#publicityPhotos {display: none;}
 
-.VPDpublic_publicity1 {margin: -100px 0 0 0;}
-.VPDpublic_publicity2 {margin: -174px 0 0 160px;}
-.VPDpublic_publicity3 {margin: 0 0 0 320px;}
-.VPDpublic_publicity4 {margin: -100px 0 0 160px;}
-.VPDpublic_publicity5 {margin: -80px 0 0 320px;}
-.VPDpublic_publicity6 {margin: -90px 0 0 160px;}
-.VPDpublic_publicity7 {margin: -80px 0 0 320px;}
-.VPDpublic_publicity8 {margin: -90px 0 0 160px;}
-.VPDpublic_publicity9 {margin: -80px 0 0 320px;}
-.VPDpublic_publicity10 {margin: -90px 0 0 160px;}
-.VPDpublic_publicity11 {margin: -80px 0 0 320px;}
-.VPDpublic_publicity12 {margin: -90px 0 0 160px;}
+.publicity1 {margin: -100px 0 0 0;}
+.publicity2 {margin: -174px 0 0 160px;}
+.publicity3 {margin: 0 0 0 320px;}
+.publicity4 {margin: -100px 0 0 160px;}
+.publicity5 {margin: -80px 0 0 320px;}
+.publicity6 {margin: -90px 0 0 160px;}
+.publicity7 {margin: -80px 0 0 320px;}
+.publicity8 {margin: -90px 0 0 160px;}
+.publicity9 {margin: -80px 0 0 320px;}
+.publicity10 {margin: -90px 0 0 160px;}
+.publicity11 {margin: -80px 0 0 320px;}
+.publicity12 {margin: -90px 0 0 160px;}
 
 #PUBLICITY {
 	position: absolute;
@@ -368,43 +368,42 @@ VPD EVENT 										LINE 467
 #arrow3 {margin: -1260px 0 0 -165px;}
 
 .hVPDexhibition1e {width: 140px; margin: -1240px 0 0 333px;}
-.vVPDexhibition1e {height: 2528px; margin: -1542px 0 0 473px; position:absolute;}
+.vVPDexhibition1e {height: 2633px; margin: -1542px 0 0 473px; position:absolute;}
 .hVPDexhibition2e {width: 50px; margin: -1542px 0 0 473px;}
 .hVPDexhibition3e {width: 50px; margin: -427px 0 0 473px;}
 .hVPDexhibition4e {width: 50px; margin: 142px 0 0 473px;}
-.hVPDexhibition5e {width: 50px; margin: 842px 0 0 473px;}
+.hVPDexhibition5e {width: 50px; margin: 947px 0 0 473px;}
 #VPDexhibition_line_expand {display: none;}
 
 
 /* DEPARTMENTS UNDER VPDB (EXHIBITION) */
 
-#departmentC1 {margin-top: -1557px;}
+#decoNdesignTitle {margin-top: -1557px;}
 
-#departmentC1, #departmentC2, #departmentC3, #departmentC4 {
+#decoNdesignTitle, #gamesTitle, #exhibitionTitle, #ticketingTitle {
 	margin-bottom: 115px;
 	display: none;
 }
 
-#arrowdown3 {
-	margin: -1560px 0 0 450px;
-	display: none;
-}
+#arrowdown3, #arrowright3 {display: none;}
+#arrowdown3 {margin: -1560px 0 0 450px;}
+#arrowright3 {margin: -1560px 0 0 950px;}
 
 
 /* DECO n DESIGN */
-#VPDexhibition_dnd {display: none;}
+#decoNdesignPhotos {display: none;}
 
-.VPDexhibition_dnd1 {margin: -100px 0 0 0;}
-.VPDexhibition_dnd2 {margin: -174px 0 0 160px;}
-.VPDexhibition_dnd3 {margin: 0 0 0 320px;}
-.VPDexhibition_dnd4 {margin: -100px 0 0 160px;}
-.VPDexhibition_dnd5 {margin: -80px 0 0 320px;}
-.VPDexhibition_dnd6 {margin: -90px 0 0 160px;}
-.VPDexhibition_dnd7 {margin: -80px 0 0 320px;}
-.VPDexhibition_dnd8 {margin: -90px 0 0 160px;}
-.VPDexhibition_dnd9 {margin: -80px 0 0 320px;}
-.VPDexhibition_dnd10 {margin: -90px 0 0 160px;}
-.VPDexhibition_dnd11 {margin: -80px 0 0 320px;}
+.decoNdesign1 {margin: -100px 0 0 0;}
+.decoNdesign2 {margin: -174px 0 0 160px;}
+.decoNdesign3 {margin: 0 0 0 320px;}
+.decoNdesign4 {margin: -100px 0 0 160px;}
+.decoNdesign5 {margin: -80px 0 0 320px;}
+.decoNdesign6 {margin: -90px 0 0 160px;}
+.decoNdesign7 {margin: -80px 0 0 320px;}
+.decoNdesign8 {margin: -90px 0 0 160px;}
+.decoNdesign9 {margin: -80px 0 0 320px;}
+.decoNdesign10 {margin: -90px 0 0 160px;}
+.decoNdesign11 {margin: -80px 0 0 320px;}
 
 #DECODESIGN {
 	position: absolute;
@@ -413,13 +412,13 @@ VPD EVENT 										LINE 467
 
 
 /* GAMES */
-#VPDexhibition_games {display: none;}
+#gamesPhotos {display: none;}
 
-.VPDexhibition_games1 {margin: -100px 0 0 0;}
-.VPDexhibition_games2 {margin: -174px 0 0 160px;}
-.VPDexhibition_games3 {margin: 0 0 0 320px;}
-.VPDexhibition_games4 {margin: -100px 0 0 160px;}
-.VPDexhibition_games5 {margin: -80px 0 0 320px;}
+.games1 {margin: -100px 0 0 0;}
+.games2 {margin: -174px 0 0 160px;}
+.games3 {margin: 0 0 0 320px;}
+.games4 {margin: -100px 0 0 160px;}
+.games5 {margin: -80px 0 0 320px;}
 
 #GAMESCOMPETITION {
 	position: absolute;
@@ -428,32 +427,33 @@ VPD EVENT 										LINE 467
 
 
 /* CARNIVAL n EXHIBITION */
-#VPDexhibition_carnival {display: none;}
+#exhibitionPhotos {display: none;}
 
-.VPDexhibition_carnival1 {margin: -100px 0 0 0;}
-.VPDexhibition_carnival2 {margin: -174px 0 0 160px;}
-.VPDexhibition_carnival3 {margin: 0 0 0 320px;}
-.VPDexhibition_carnival4 {margin: -100px 0 0 160px;}
-.VPDexhibition_carnival5 {margin: -80px 0 0 320px;}
-.VPDexhibition_carnival6 {margin: -90px 0 0 160px;}
-.VPDexhibition_carnival7 {margin: -80px 0 0 320px;}
-.VPDexhibition_carnival8 {margin: -90px 0 0 160px;}
+.exhibition1 {margin: -100px 0 0 0;}
+.exhibition2 {margin: -174px 0 0 160px;}
+.exhibition3 {margin: 0 0 0 320px;}
+.exhibition4 {margin: -100px 0 0 160px;}
+.exhibition5 {margin: -80px 0 0 320px;}
+.exhibition6 {margin: -90px 0 0 160px;}
+.exhibition7 {margin: -80px 0 0 320px;}
+.exhibition8 {margin: -90px 0 0 160px;}
+.exhibition9 {margin: -80px 0 0 320px;}
 
 #CARNIVALEXHIBITION {
 	position: absolute;
-	margin: -734px 0 0 -108px; /*78*/
+	margin: -845px 0 0 -108px;
 }
 
 
 /* TICKETING */
-#VPDexhibition_ticket {display: none;}
+#ticketingPhotos {display: none;}
 
-.VPDexhibition_ticket1 {margin: -100px 0 0 0;}
-.VPDexhibition_ticket2 {margin: -174px 0 0 160px;}
-.VPDexhibition_ticket3 {margin: -174px 0 0 320px;}
-.VPDexhibition_ticket4 {margin: 0 0 0 320px;}
-.VPDexhibition_ticket5 {margin: -100px 0 0 160px;}
-.VPDexhibition_ticket6 {margin: -80px 0 0 320px;}
+.ticketing1 {margin: -100px 0 0 0;}
+.ticketing2 {margin: -174px 0 0 160px;}
+.ticketing3 {margin: -174px 0 0 320px;}
+.ticketing4 {margin: 0 0 0 320px;}
+.ticketing5 {margin: -100px 0 0 160px;}
+.ticketing6 {margin: -80px 0 0 320px;}
 
 #TICKET {
 	position: absolute;
@@ -486,36 +486,35 @@ VPD EVENT 										LINE 467
 
 /* DEPARTMENTS UNDER VPDC (EVENT) */
 
-#departmentD1 {margin-top: -1457px;}
+#eventTitle {margin-top: -1457px;}
 
-#departmentD1, #departmentD2, #departmentD3, #departmentD4 {
+#eventTitle, #protocolTitle, #hallTitle, #logisticTitle {
 	margin-bottom: 115px;
 	display: none;
 }
 
-#arrowdown4 {
-	margin: -1460px 0 0 450px;
-	display: none;
-}
+#arrowdown4, #arrowright4 {display: none;}
+#arrowdown4 {margin: -1460px 0 0 450px;}
+#arrowright4 {margin: -1460px 0 0 950px;}
 
 
 /* EVENT */
-#VPDevent_event {display: none;}
+#eventPhotos {display: none;}
 
-.VPDevent_event1 {margin: -100px 0 0 0;}
-.VPDevent_event2 {margin: -190px 0 0 160px;}
-.VPDevent_event3 {margin: -170px 0 0 320px;}
-.VPDevent_event4 {margin: 0 0 0 320px;}
-.VPDevent_event5 {margin: -100px 0 0 160px;}
-.VPDevent_event6 {margin: -80px 0 0 320px;}
-.VPDevent_event7 {margin: -90px 0 0 160px;}
-.VPDevent_event8 {margin: -80px 0 0 320px;}
-.VPDevent_event9 {margin: -90px 0 0 160px;}
-.VPDevent_event10 {margin: -80px 0 0 320px;}
-.VPDevent_event11 {margin: -90px 0 0 160px;}
-.VPDevent_event12 {margin: -80px 0 0 320px;}
-.VPDevent_event13 {margin: -90px 0 0 160px;}
-.VPDevent_event14 {margin: -80px 0 0 320px;}
+.event1 {margin: -100px 0 0 0;}
+.event2 {margin: -190px 0 0 160px;}
+.event3 {margin: -170px 0 0 320px;}
+.event4 {margin: 0 0 0 320px;}
+.event5 {margin: -100px 0 0 160px;}
+.event6 {margin: -80px 0 0 320px;}
+.event7 {margin: -90px 0 0 160px;}
+.event8 {margin: -80px 0 0 320px;}
+.event9 {margin: -90px 0 0 160px;}
+.event10 {margin: -80px 0 0 320px;}
+.event11 {margin: -90px 0 0 160px;}
+.event12 {margin: -80px 0 0 320px;}
+.event13 {margin: -90px 0 0 160px;}
+.event14 {margin: -80px 0 0 320px;}
 
 #EVENT {
 	position: absolute;
@@ -524,17 +523,17 @@ VPD EVENT 										LINE 467
 
 
 /* PROTOCOL n SECRETARIAT */
-#VPDevent_pns {display: none;}
+#protocolPhotos {display: none;}
 
-.VPDevent_pns1 {margin: -100px 0 0 0;}
-.VPDevent_pns2 {margin: -174px 0 0 160px;}
-.VPDevent_pns3 {margin: 0 0 0 320px;}
-.VPDevent_pns4 {margin: -100px 0 0 160px;}
-.VPDevent_pns5 {margin: -80px 0 0 320px;}
-.VPDevent_pns6 {margin: -90px 0 0 160px;}
-.VPDevent_pns7 {margin: -80px 0 0 320px;}
-.VPDevent_pns8 {margin: -90px 0 0 160px;}
-.VPDevent_pns9 {margin: -80px 0 0 320px;}
+.protocol1 {margin: -100px 0 0 0;}
+.protocol2 {margin: -174px 0 0 160px;}
+.protocol3 {margin: 0 0 0 320px;}
+.protocol4 {margin: -100px 0 0 160px;}
+.protocol5 {margin: -80px 0 0 320px;}
+.protocol6 {margin: -90px 0 0 160px;}
+.protocol7 {margin: -80px 0 0 320px;}
+.protocol8 {margin: -90px 0 0 160px;}
+.protocol9 {margin: -80px 0 0 320px;}
 
 #PROTOCOLSECRETARIAT {
 	position: absolute;
@@ -544,17 +543,16 @@ VPD EVENT 										LINE 467
 
 
 /* HALL */
-#VPDevent_hall {display: none;}
+#hallPhotos {display: none;}
 
-.VPDevent_hall1 {margin: -100px 0 0 0;}
-.VPDevent_hall2 {margin: -174px 0 0 160px;}
-.VPDevent_hall3 {margin: -170px 0 0 320px;}
-.VPDevent_hall4 {margin: 0 0 0 320px;}
-.VPDevent_hall5 {margin: -100px 0 0 160px;}
-.VPDevent_hall6 {margin: -80px 0 0 320px;}
-.VPDevent_hall7 {margin: -90px 0 0 160px;}
-.VPDevent_hall8 {margin: -80px 0 0 320px;}
-.VPDevent_hall9 {margin: -90px 0 0 160px;}
+.hall1 {margin: -100px 0 0 0;}
+.hall2 {margin: -174px 0 0 160px;}
+.hall4 {margin: 0 0 0 320px;}
+.hall5 {margin: -100px 0 0 160px;}
+.hall6 {margin: -80px 0 0 320px;}
+.hall7 {margin: -90px 0 0 160px;}
+.hall8 {margin: -80px 0 0 320px;}
+.hall9 {margin: -90px 0 0 160px;}
 
 #HALL {
 	position: absolute;
@@ -563,14 +561,13 @@ VPD EVENT 										LINE 467
 
 
 /* LOGISTIC */
-#VPDevent_logistic {display: none;}
+#logisticPhotos {display: none;}
 
-.VPDevent_logistic1 {margin: -100px 0 0 0;}
-.VPDevent_logistic2 {margin: -174px 0 0 160px;}
-.VPDevent_logistic3 {margin: 0 0 0 320px;}
-.VPDevent_logistic4 {margin: -100px 0 0 160px;}
-.VPDevent_logistic5 {margin: -80px 0 0 320px;}
-.VPDevent_logistic6 {margin: -100px 0 0 160px;}
+.logistic1 {margin: -100px 0 0 0;}
+.logistic2 {margin: -174px 0 0 160px;}
+.logistic3 {margin: 0 0 0 320px;}
+.logistic4 {margin: -100px 0 0 160px;}
+.logistic5 {margin: -80px 0 0 320px;}
 
 #LOGISTIC {
 	position: absolute;
