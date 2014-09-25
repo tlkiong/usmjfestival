@@ -272,10 +272,10 @@ VPD EVENT 										LINE 466
 #arrow2 {margin: -1437px 0 0 -165px; display: none;}
 
 .hVPDpublic1e {width: 140px; margin: -1417px 0 0 333px;}
-.vVPDpublic1e {height: 1585px; margin: -1642px 0 0 473px; float: right;}
-.hVPDpublic2e {width: 50px; margin: -1642px 0 0 473px;}
-.hVPDpublic3e {width: 50px; margin: -992px 0 0 473px;}
-.hVPDpublic4e {width: 50px; margin: -57px 0 0 473px;}
+.vVPDpublic1e {height: 1862px; margin: -1642px 0 0 473px;}
+.hVPDpublic2e {width: 50px; margin: -1642px 0 0 0px;}
+.hVPDpublic3e {width: 50px; margin: -992px 0 0 0px;}
+.hVPDpublic4e {width: 50px; margin: 220px 0 0 0px;}
 #VPDpublic_line_expand {display: none;}
 
 
@@ -324,6 +324,9 @@ VPD EVENT 										LINE 466
 .PR8 {margin: -80px 0 0 320px;}
 .PR9 {margin: -90px 0 0 160px;}
 .PR10 {margin: -80px 0 0 320px;}
+.PR11 {margin: -90px 0 0 160px;}
+.PR12 {margin: -80px 0 0 320px;}
+.PR13 {margin: -80px 0 0 160px;}
 
 #PUBLICRELATION {
 	position: absolute;
@@ -336,16 +339,17 @@ VPD EVENT 										LINE 466
 
 .publicity1 {margin: -100px 0 0 0;}
 .publicity2 {margin: -174px 0 0 160px;}
-.publicity3 {margin: 0 0 0 320px;}
-.publicity4 {margin: -100px 0 0 160px;}
-.publicity5 {margin: -80px 0 0 320px;}
-.publicity6 {margin: -90px 0 0 160px;}
-.publicity7 {margin: -80px 0 0 320px;}
-.publicity8 {margin: -90px 0 0 160px;}
-.publicity9 {margin: -80px 0 0 320px;}
-.publicity10 {margin: -90px 0 0 160px;}
-.publicity11 {margin: -80px 0 0 320px;}
-.publicity12 {margin: -90px 0 0 160px;}
+.publicity3 {margin: -174px 0 0 320px;}
+.publicity4 {margin: 0 0 0 320px;}
+.publicity5 {margin: -100px 0 0 160px;}
+.publicity6 {margin: -80px 0 0 320px;}
+.publicity7 {margin: -90px 0 0 160px;}
+.publicity8 {margin: -80px 0 0 320px;}
+.publicity9 {margin: -90px 0 0 160px;}
+.publicity10 {margin: -80px 0 0 320px;}
+.publicity11 {margin: -90px 0 0 160px;}
+.publicity12 {margin: -80px 0 0 320px;}
+.publicity13 {margin: -90px 0 0 160px;}
 
 #PUBLICITY {
 	position: absolute;
@@ -368,11 +372,11 @@ VPD EVENT 										LINE 466
 #arrow3 {margin: -1260px 0 0 -165px;}
 
 .hVPDexhibition1e {width: 140px; margin: -1240px 0 0 333px;}
-.vVPDexhibition1e {height: 2633px; margin: -1542px 0 0 473px; position:absolute;}
+.vVPDexhibition1e {height: 2705px; margin: -1542px 0 0 473px; position:absolute;}
 .hVPDexhibition2e {width: 50px; margin: -1542px 0 0 473px;}
-.hVPDexhibition3e {width: 50px; margin: -427px 0 0 473px;}
-.hVPDexhibition4e {width: 50px; margin: 142px 0 0 473px;}
-.hVPDexhibition5e {width: 50px; margin: 947px 0 0 473px;}
+.hVPDexhibition3e {width: 50px; margin: -620px 0 0 473px;}
+.hVPDexhibition4e {width: 50px; margin: 206px 0 0 473px;}
+.hVPDexhibition5e {width: 50px; margin: 953px 0 0 473px;}
 #VPDexhibition_line_expand {display: none;}
 
 
@@ -402,8 +406,6 @@ VPD EVENT 										LINE 466
 .decoNdesign7 {margin: -80px 0 0 320px;}
 .decoNdesign8 {margin: -90px 0 0 160px;}
 .decoNdesign9 {margin: -80px 0 0 320px;}
-.decoNdesign10 {margin: -90px 0 0 160px;}
-.decoNdesign11 {margin: -80px 0 0 320px;}
 
 #DECODESIGN {
 	position: absolute;
@@ -419,10 +421,13 @@ VPD EVENT 										LINE 466
 .games3 {margin: 0 0 0 320px;}
 .games4 {margin: -100px 0 0 160px;}
 .games5 {margin: -80px 0 0 320px;}
+.games6 {margin: -90px 0 0 160px;}
+.games7 {margin: -80px 0 0 320px;}
+.games8 {margin: -90px 0 0 160px;}
 
 #GAMESCOMPETITION {
 	position: absolute;
-	margin: 60px 0 0 23px;;
+	margin: 65px 0 0 83px;;
 }
 
 
@@ -477,10 +482,10 @@ VPD EVENT 										LINE 466
 #arrow4 {margin: -1083px 0 0 -165px;}
 
 .hVPDevent1e {width: 140px; margin: -1063px 0 0 333px;}
-.vVPDevent1e {height: 2927px; margin: -1442px 0 0 473px; position: absolute;}
+.vVPDevent1e {height: 3452px; margin: -1442px 0 0 473px; position: absolute;}
 .hVPDevent2e {width: 50px; margin: -1442px 0 0 473px;}
-.hVPDevent3e {width: 50px; margin: -125px 0 0 473px;}
-.hVPDevent4e {width: 50px; margin: 617px 0 0 473px;}
+.hVPDevent3e {width: 50px; margin: -40px 0 0 473px;}
+.hVPDevent4e {width: 50px; margin: 1142px 0 0 473px;}
 .hVPDevent5e {width: 50px; margin: 865px 0 0 473px;}
 #VPDevent_line_expand {display: none;}
 
@@ -515,6 +520,7 @@ VPD EVENT 										LINE 466
 .event12 {margin: -80px 0 0 320px;}
 .event13 {margin: -90px 0 0 160px;}
 .event14 {margin: -80px 0 0 320px;}
+.event15 {margin: -90px 0 0 160px;}
 
 #EVENT {
 	position: absolute;
@@ -534,6 +540,9 @@ VPD EVENT 										LINE 466
 .protocol7 {margin: -80px 0 0 320px;}
 .protocol8 {margin: -90px 0 0 160px;}
 .protocol9 {margin: -80px 0 0 320px;}
+.protocol10 {margin: -90px 0 0 160px;}
+.protocol11 {margin: -80px 0 0 320px;}
+.protocol12 {margin: -90px 0 0 160px;}
 
 #PROTOCOLSECRETARIAT {
 	position: absolute;
@@ -556,7 +565,7 @@ VPD EVENT 										LINE 466
 
 #HALL {
 	position: absolute;
-	margin: -755px 0 0 -113px;
+	margin: -755px 0 0 -111px;
 }
 
 
@@ -567,11 +576,10 @@ VPD EVENT 										LINE 466
 .logistic2 {margin: -174px 0 0 160px;}
 .logistic3 {margin: 0 0 0 320px;}
 .logistic4 {margin: -100px 0 0 160px;}
-.logistic5 {margin: -80px 0 0 320px;}
 
 #LOGISTIC {
 	position: absolute;
-	margin: 46px 0 0 154px;
+	margin: 38px 0 0 154px;
 }
 
 

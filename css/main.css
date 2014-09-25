@@ -292,7 +292,8 @@ footer {
 	padding: 10px;
 }
 
-#sponsorslogo img {height: 200px;}
+#sponsorslogo img {height: 200px; background-color: white;}
+.ANN img {height: 50px;}
 
 
 /*************** CONTACT US PAGE ***************/
